@@ -1,564 +1,564 @@
-Subject	:-	The subject involved in the activity of the different activity Labels. It takes values from 1 to 30, as there are 30 subjects involved in this.
-ActivityDesc	:-	"The activity labels includes  WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, and  LAYING
+1. 	Subject	:-	The subject involved in the activity of the different activity Labels. It takes values from 1 to 30, as there are 30 subjects involved in this.
+2. 	ActivityDesc	:-	"The activity labels includes  WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, and  LAYING
 "
-Mean tBodyAcc-mean()-X	:-	Mean of tBodyAcc-mean()-X
-Mean tBodyAcc-mean()-Y	:-	Mean of tBodyAcc-mean()-Y
-Mean tBodyAcc-mean()-Z	:-	Mean of tBodyAcc-mean()-Z
-Mean tBodyAcc-std()-X	:-	Mean of tBodyAcc-std()-X
-Mean tBodyAcc-std()-Y	:-	Mean of tBodyAcc-std()-Y
-Mean tBodyAcc-std()-Z	:-	Mean of tBodyAcc-std()-Z
-Mean tBodyAcc-mad()-X	:-	Mean of tBodyAcc-mad()-X
-Mean tBodyAcc-mad()-Y	:-	Mean of tBodyAcc-mad()-Y
-Mean tBodyAcc-mad()-Z	:-	Mean of tBodyAcc-mad()-Z
-Mean tBodyAcc-max()-X	:-	Mean of tBodyAcc-max()-X
-Mean tBodyAcc-max()-Y	:-	Mean of tBodyAcc-max()-Y
-Mean tBodyAcc-max()-Z	:-	Mean of tBodyAcc-max()-Z
-Mean tBodyAcc-min()-X	:-	Mean of tBodyAcc-min()-X
-Mean tBodyAcc-min()-Y	:-	Mean of tBodyAcc-min()-Y
-Mean tBodyAcc-min()-Z	:-	Mean of tBodyAcc-min()-Z
-Mean tBodyAcc-sma()	:-	Mean of tBodyAcc-sma()
-Mean tBodyAcc-energy()-X	:-	Mean of tBodyAcc-energy()-X
-Mean tBodyAcc-energy()-Y	:-	Mean of tBodyAcc-energy()-Y
-Mean tBodyAcc-energy()-Z	:-	Mean of tBodyAcc-energy()-Z
-Mean tBodyAcc-iqr()-X	:-	Mean of tBodyAcc-iqr()-X
-Mean tBodyAcc-iqr()-Y	:-	Mean of tBodyAcc-iqr()-Y
-Mean tBodyAcc-iqr()-Z	:-	Mean of tBodyAcc-iqr()-Z
-Mean tBodyAcc-entropy()-X	:-	Mean of tBodyAcc-entropy()-X
-Mean tBodyAcc-entropy()-Y	:-	Mean of tBodyAcc-entropy()-Y
-Mean tBodyAcc-entropy()-Z	:-	Mean of tBodyAcc-entropy()-Z
-Mean tBodyAcc-arCoeff()-X,1	:-	Mean of tBodyAcc-arCoeff()-X,1
-Mean tBodyAcc-arCoeff()-X,2	:-	Mean of tBodyAcc-arCoeff()-X,2
-Mean tBodyAcc-arCoeff()-X,3	:-	Mean of tBodyAcc-arCoeff()-X,3
-Mean tBodyAcc-arCoeff()-X,4	:-	Mean of tBodyAcc-arCoeff()-X,4
-Mean tBodyAcc-arCoeff()-Y,1	:-	Mean of tBodyAcc-arCoeff()-Y,1
-Mean tBodyAcc-arCoeff()-Y,2	:-	Mean of tBodyAcc-arCoeff()-Y,2
-Mean tBodyAcc-arCoeff()-Y,3	:-	Mean of tBodyAcc-arCoeff()-Y,3
-Mean tBodyAcc-arCoeff()-Y,4	:-	Mean of tBodyAcc-arCoeff()-Y,4
-Mean tBodyAcc-arCoeff()-Z,1	:-	Mean of tBodyAcc-arCoeff()-Z,1
-Mean tBodyAcc-arCoeff()-Z,2	:-	Mean of tBodyAcc-arCoeff()-Z,2
-Mean tBodyAcc-arCoeff()-Z,3	:-	Mean of tBodyAcc-arCoeff()-Z,3
-Mean tBodyAcc-arCoeff()-Z,4	:-	Mean of tBodyAcc-arCoeff()-Z,4
-Mean tBodyAcc-correlation()-X,Y	:-	Mean of tBodyAcc-correlation()-X,Y
-Mean tBodyAcc-correlation()-X,Z	:-	Mean of tBodyAcc-correlation()-X,Z
-Mean tBodyAcc-correlation()-Y,Z	:-	Mean of tBodyAcc-correlation()-Y,Z
-Mean tGravityAcc-mean()-X	:-	Mean of tGravityAcc-mean()-X
-Mean tGravityAcc-mean()-Y	:-	Mean of tGravityAcc-mean()-Y
-Mean tGravityAcc-mean()-Z	:-	Mean of tGravityAcc-mean()-Z
-Mean tGravityAcc-std()-X	:-	Mean of tGravityAcc-std()-X
-Mean tGravityAcc-std()-Y	:-	Mean of tGravityAcc-std()-Y
-Mean tGravityAcc-std()-Z	:-	Mean of tGravityAcc-std()-Z
-Mean tGravityAcc-mad()-X	:-	Mean of tGravityAcc-mad()-X
-Mean tGravityAcc-mad()-Y	:-	Mean of tGravityAcc-mad()-Y
-Mean tGravityAcc-mad()-Z	:-	Mean of tGravityAcc-mad()-Z
-Mean tGravityAcc-max()-X	:-	Mean of tGravityAcc-max()-X
-Mean tGravityAcc-max()-Y	:-	Mean of tGravityAcc-max()-Y
-Mean tGravityAcc-max()-Z	:-	Mean of tGravityAcc-max()-Z
-Mean tGravityAcc-min()-X	:-	Mean of tGravityAcc-min()-X
-Mean tGravityAcc-min()-Y	:-	Mean of tGravityAcc-min()-Y
-Mean tGravityAcc-min()-Z	:-	Mean of tGravityAcc-min()-Z
-Mean tGravityAcc-sma()	:-	Mean of tGravityAcc-sma()
-Mean tGravityAcc-energy()-X	:-	Mean of tGravityAcc-energy()-X
-Mean tGravityAcc-energy()-Y	:-	Mean of tGravityAcc-energy()-Y
-Mean tGravityAcc-energy()-Z	:-	Mean of tGravityAcc-energy()-Z
-Mean tGravityAcc-iqr()-X	:-	Mean of tGravityAcc-iqr()-X
-Mean tGravityAcc-iqr()-Y	:-	Mean of tGravityAcc-iqr()-Y
-Mean tGravityAcc-iqr()-Z	:-	Mean of tGravityAcc-iqr()-Z
-Mean tGravityAcc-entropy()-X	:-	Mean of tGravityAcc-entropy()-X
-Mean tGravityAcc-entropy()-Y	:-	Mean of tGravityAcc-entropy()-Y
-Mean tGravityAcc-entropy()-Z	:-	Mean of tGravityAcc-entropy()-Z
-Mean tGravityAcc-arCoeff()-X,1	:-	Mean of tGravityAcc-arCoeff()-X,1
-Mean tGravityAcc-arCoeff()-X,2	:-	Mean of tGravityAcc-arCoeff()-X,2
-Mean tGravityAcc-arCoeff()-X,3	:-	Mean of tGravityAcc-arCoeff()-X,3
-Mean tGravityAcc-arCoeff()-X,4	:-	Mean of tGravityAcc-arCoeff()-X,4
-Mean tGravityAcc-arCoeff()-Y,1	:-	Mean of tGravityAcc-arCoeff()-Y,1
-Mean tGravityAcc-arCoeff()-Y,2	:-	Mean of tGravityAcc-arCoeff()-Y,2
-Mean tGravityAcc-arCoeff()-Y,3	:-	Mean of tGravityAcc-arCoeff()-Y,3
-Mean tGravityAcc-arCoeff()-Y,4	:-	Mean of tGravityAcc-arCoeff()-Y,4
-Mean tGravityAcc-arCoeff()-Z,1	:-	Mean of tGravityAcc-arCoeff()-Z,1
-Mean tGravityAcc-arCoeff()-Z,2	:-	Mean of tGravityAcc-arCoeff()-Z,2
-Mean tGravityAcc-arCoeff()-Z,3	:-	Mean of tGravityAcc-arCoeff()-Z,3
-Mean tGravityAcc-arCoeff()-Z,4	:-	Mean of tGravityAcc-arCoeff()-Z,4
-Mean tGravityAcc-correlation()-X,Y	:-	Mean of tGravityAcc-correlation()-X,Y
-Mean tGravityAcc-correlation()-X,Z	:-	Mean of tGravityAcc-correlation()-X,Z
-Mean tGravityAcc-correlation()-Y,Z	:-	Mean of tGravityAcc-correlation()-Y,Z
-Mean tBodyAccJerk-mean()-X	:-	Mean of tBodyAccJerk-mean()-X
-Mean tBodyAccJerk-mean()-Y	:-	Mean of tBodyAccJerk-mean()-Y
-Mean tBodyAccJerk-mean()-Z	:-	Mean of tBodyAccJerk-mean()-Z
-Mean tBodyAccJerk-std()-X	:-	Mean of tBodyAccJerk-std()-X
-Mean tBodyAccJerk-std()-Y	:-	Mean of tBodyAccJerk-std()-Y
-Mean tBodyAccJerk-std()-Z	:-	Mean of tBodyAccJerk-std()-Z
-Mean tBodyAccJerk-mad()-X	:-	Mean of tBodyAccJerk-mad()-X
-Mean tBodyAccJerk-mad()-Y	:-	Mean of tBodyAccJerk-mad()-Y
-Mean tBodyAccJerk-mad()-Z	:-	Mean of tBodyAccJerk-mad()-Z
-Mean tBodyAccJerk-max()-X	:-	Mean of tBodyAccJerk-max()-X
-Mean tBodyAccJerk-max()-Y	:-	Mean of tBodyAccJerk-max()-Y
-Mean tBodyAccJerk-max()-Z	:-	Mean of tBodyAccJerk-max()-Z
-Mean tBodyAccJerk-min()-X	:-	Mean of tBodyAccJerk-min()-X
-Mean tBodyAccJerk-min()-Y	:-	Mean of tBodyAccJerk-min()-Y
-Mean tBodyAccJerk-min()-Z	:-	Mean of tBodyAccJerk-min()-Z
-Mean tBodyAccJerk-sma()	:-	Mean of tBodyAccJerk-sma()
-Mean tBodyAccJerk-energy()-X	:-	Mean of tBodyAccJerk-energy()-X
-Mean tBodyAccJerk-energy()-Y	:-	Mean of tBodyAccJerk-energy()-Y
-Mean tBodyAccJerk-energy()-Z	:-	Mean of tBodyAccJerk-energy()-Z
-Mean tBodyAccJerk-iqr()-X	:-	Mean of tBodyAccJerk-iqr()-X
-Mean tBodyAccJerk-iqr()-Y	:-	Mean of tBodyAccJerk-iqr()-Y
-Mean tBodyAccJerk-iqr()-Z	:-	Mean of tBodyAccJerk-iqr()-Z
-Mean tBodyAccJerk-entropy()-X	:-	Mean of tBodyAccJerk-entropy()-X
-Mean tBodyAccJerk-entropy()-Y	:-	Mean of tBodyAccJerk-entropy()-Y
-Mean tBodyAccJerk-entropy()-Z	:-	Mean of tBodyAccJerk-entropy()-Z
-Mean tBodyAccJerk-arCoeff()-X,1	:-	Mean of tBodyAccJerk-arCoeff()-X,1
-Mean tBodyAccJerk-arCoeff()-X,2	:-	Mean of tBodyAccJerk-arCoeff()-X,2
-Mean tBodyAccJerk-arCoeff()-X,3	:-	Mean of tBodyAccJerk-arCoeff()-X,3
-Mean tBodyAccJerk-arCoeff()-X,4	:-	Mean of tBodyAccJerk-arCoeff()-X,4
-Mean tBodyAccJerk-arCoeff()-Y,1	:-	Mean of tBodyAccJerk-arCoeff()-Y,1
-Mean tBodyAccJerk-arCoeff()-Y,2	:-	Mean of tBodyAccJerk-arCoeff()-Y,2
-Mean tBodyAccJerk-arCoeff()-Y,3	:-	Mean of tBodyAccJerk-arCoeff()-Y,3
-Mean tBodyAccJerk-arCoeff()-Y,4	:-	Mean of tBodyAccJerk-arCoeff()-Y,4
-Mean tBodyAccJerk-arCoeff()-Z,1	:-	Mean of tBodyAccJerk-arCoeff()-Z,1
-Mean tBodyAccJerk-arCoeff()-Z,2	:-	Mean of tBodyAccJerk-arCoeff()-Z,2
-Mean tBodyAccJerk-arCoeff()-Z,3	:-	Mean of tBodyAccJerk-arCoeff()-Z,3
-Mean tBodyAccJerk-arCoeff()-Z,4	:-	Mean of tBodyAccJerk-arCoeff()-Z,4
-Mean tBodyAccJerk-correlation()-X,Y	:-	Mean of tBodyAccJerk-correlation()-X,Y
-Mean tBodyAccJerk-correlation()-X,Z	:-	Mean of tBodyAccJerk-correlation()-X,Z
-Mean tBodyAccJerk-correlation()-Y,Z	:-	Mean of tBodyAccJerk-correlation()-Y,Z
-Mean tBodyGyro-mean()-X	:-	Mean of tBodyGyro-mean()-X
-Mean tBodyGyro-mean()-Y	:-	Mean of tBodyGyro-mean()-Y
-Mean tBodyGyro-mean()-Z	:-	Mean of tBodyGyro-mean()-Z
-Mean tBodyGyro-std()-X	:-	Mean of tBodyGyro-std()-X
-Mean tBodyGyro-std()-Y	:-	Mean of tBodyGyro-std()-Y
-Mean tBodyGyro-std()-Z	:-	Mean of tBodyGyro-std()-Z
-Mean tBodyGyro-mad()-X	:-	Mean of tBodyGyro-mad()-X
-Mean tBodyGyro-mad()-Y	:-	Mean of tBodyGyro-mad()-Y
-Mean tBodyGyro-mad()-Z	:-	Mean of tBodyGyro-mad()-Z
-Mean tBodyGyro-max()-X	:-	Mean of tBodyGyro-max()-X
-Mean tBodyGyro-max()-Y	:-	Mean of tBodyGyro-max()-Y
-Mean tBodyGyro-max()-Z	:-	Mean of tBodyGyro-max()-Z
-Mean tBodyGyro-min()-X	:-	Mean of tBodyGyro-min()-X
-Mean tBodyGyro-min()-Y	:-	Mean of tBodyGyro-min()-Y
-Mean tBodyGyro-min()-Z	:-	Mean of tBodyGyro-min()-Z
-Mean tBodyGyro-sma()	:-	Mean of tBodyGyro-sma()
-Mean tBodyGyro-energy()-X	:-	Mean of tBodyGyro-energy()-X
-Mean tBodyGyro-energy()-Y	:-	Mean of tBodyGyro-energy()-Y
-Mean tBodyGyro-energy()-Z	:-	Mean of tBodyGyro-energy()-Z
-Mean tBodyGyro-iqr()-X	:-	Mean of tBodyGyro-iqr()-X
-Mean tBodyGyro-iqr()-Y	:-	Mean of tBodyGyro-iqr()-Y
-Mean tBodyGyro-iqr()-Z	:-	Mean of tBodyGyro-iqr()-Z
-Mean tBodyGyro-entropy()-X	:-	Mean of tBodyGyro-entropy()-X
-Mean tBodyGyro-entropy()-Y	:-	Mean of tBodyGyro-entropy()-Y
-Mean tBodyGyro-entropy()-Z	:-	Mean of tBodyGyro-entropy()-Z
-Mean tBodyGyro-arCoeff()-X,1	:-	Mean of tBodyGyro-arCoeff()-X,1
-Mean tBodyGyro-arCoeff()-X,2	:-	Mean of tBodyGyro-arCoeff()-X,2
-Mean tBodyGyro-arCoeff()-X,3	:-	Mean of tBodyGyro-arCoeff()-X,3
-Mean tBodyGyro-arCoeff()-X,4	:-	Mean of tBodyGyro-arCoeff()-X,4
-Mean tBodyGyro-arCoeff()-Y,1	:-	Mean of tBodyGyro-arCoeff()-Y,1
-Mean tBodyGyro-arCoeff()-Y,2	:-	Mean of tBodyGyro-arCoeff()-Y,2
-Mean tBodyGyro-arCoeff()-Y,3	:-	Mean of tBodyGyro-arCoeff()-Y,3
-Mean tBodyGyro-arCoeff()-Y,4	:-	Mean of tBodyGyro-arCoeff()-Y,4
-Mean tBodyGyro-arCoeff()-Z,1	:-	Mean of tBodyGyro-arCoeff()-Z,1
-Mean tBodyGyro-arCoeff()-Z,2	:-	Mean of tBodyGyro-arCoeff()-Z,2
-Mean tBodyGyro-arCoeff()-Z,3	:-	Mean of tBodyGyro-arCoeff()-Z,3
-Mean tBodyGyro-arCoeff()-Z,4	:-	Mean of tBodyGyro-arCoeff()-Z,4
-Mean tBodyGyro-correlation()-X,Y	:-	Mean of tBodyGyro-correlation()-X,Y
-Mean tBodyGyro-correlation()-X,Z	:-	Mean of tBodyGyro-correlation()-X,Z
-Mean tBodyGyro-correlation()-Y,Z	:-	Mean of tBodyGyro-correlation()-Y,Z
-Mean tBodyGyroJerk-mean()-X	:-	Mean of tBodyGyroJerk-mean()-X
-Mean tBodyGyroJerk-mean()-Y	:-	Mean of tBodyGyroJerk-mean()-Y
-Mean tBodyGyroJerk-mean()-Z	:-	Mean of tBodyGyroJerk-mean()-Z
-Mean tBodyGyroJerk-std()-X	:-	Mean of tBodyGyroJerk-std()-X
-Mean tBodyGyroJerk-std()-Y	:-	Mean of tBodyGyroJerk-std()-Y
-Mean tBodyGyroJerk-std()-Z	:-	Mean of tBodyGyroJerk-std()-Z
-Mean tBodyGyroJerk-mad()-X	:-	Mean of tBodyGyroJerk-mad()-X
-Mean tBodyGyroJerk-mad()-Y	:-	Mean of tBodyGyroJerk-mad()-Y
-Mean tBodyGyroJerk-mad()-Z	:-	Mean of tBodyGyroJerk-mad()-Z
-Mean tBodyGyroJerk-max()-X	:-	Mean of tBodyGyroJerk-max()-X
-Mean tBodyGyroJerk-max()-Y	:-	Mean of tBodyGyroJerk-max()-Y
-Mean tBodyGyroJerk-max()-Z	:-	Mean of tBodyGyroJerk-max()-Z
-Mean tBodyGyroJerk-min()-X	:-	Mean of tBodyGyroJerk-min()-X
-Mean tBodyGyroJerk-min()-Y	:-	Mean of tBodyGyroJerk-min()-Y
-Mean tBodyGyroJerk-min()-Z	:-	Mean of tBodyGyroJerk-min()-Z
-Mean tBodyGyroJerk-sma()	:-	Mean of tBodyGyroJerk-sma()
-Mean tBodyGyroJerk-energy()-X	:-	Mean of tBodyGyroJerk-energy()-X
-Mean tBodyGyroJerk-energy()-Y	:-	Mean of tBodyGyroJerk-energy()-Y
-Mean tBodyGyroJerk-energy()-Z	:-	Mean of tBodyGyroJerk-energy()-Z
-Mean tBodyGyroJerk-iqr()-X	:-	Mean of tBodyGyroJerk-iqr()-X
-Mean tBodyGyroJerk-iqr()-Y	:-	Mean of tBodyGyroJerk-iqr()-Y
-Mean tBodyGyroJerk-iqr()-Z	:-	Mean of tBodyGyroJerk-iqr()-Z
-Mean tBodyGyroJerk-entropy()-X	:-	Mean of tBodyGyroJerk-entropy()-X
-Mean tBodyGyroJerk-entropy()-Y	:-	Mean of tBodyGyroJerk-entropy()-Y
-Mean tBodyGyroJerk-entropy()-Z	:-	Mean of tBodyGyroJerk-entropy()-Z
-Mean tBodyGyroJerk-arCoeff()-X,1	:-	Mean of tBodyGyroJerk-arCoeff()-X,1
-Mean tBodyGyroJerk-arCoeff()-X,2	:-	Mean of tBodyGyroJerk-arCoeff()-X,2
-Mean tBodyGyroJerk-arCoeff()-X,3	:-	Mean of tBodyGyroJerk-arCoeff()-X,3
-Mean tBodyGyroJerk-arCoeff()-X,4	:-	Mean of tBodyGyroJerk-arCoeff()-X,4
-Mean tBodyGyroJerk-arCoeff()-Y,1	:-	Mean of tBodyGyroJerk-arCoeff()-Y,1
-Mean tBodyGyroJerk-arCoeff()-Y,2	:-	Mean of tBodyGyroJerk-arCoeff()-Y,2
-Mean tBodyGyroJerk-arCoeff()-Y,3	:-	Mean of tBodyGyroJerk-arCoeff()-Y,3
-Mean tBodyGyroJerk-arCoeff()-Y,4	:-	Mean of tBodyGyroJerk-arCoeff()-Y,4
-Mean tBodyGyroJerk-arCoeff()-Z,1	:-	Mean of tBodyGyroJerk-arCoeff()-Z,1
-Mean tBodyGyroJerk-arCoeff()-Z,2	:-	Mean of tBodyGyroJerk-arCoeff()-Z,2
-Mean tBodyGyroJerk-arCoeff()-Z,3	:-	Mean of tBodyGyroJerk-arCoeff()-Z,3
-Mean tBodyGyroJerk-arCoeff()-Z,4	:-	Mean of tBodyGyroJerk-arCoeff()-Z,4
-Mean tBodyGyroJerk-correlation()-X,Y	:-	Mean of tBodyGyroJerk-correlation()-X,Y
-Mean tBodyGyroJerk-correlation()-X,Z	:-	Mean of tBodyGyroJerk-correlation()-X,Z
-Mean tBodyGyroJerk-correlation()-Y,Z	:-	Mean of tBodyGyroJerk-correlation()-Y,Z
-Mean tBodyAccMag-mean()	:-	Mean of tBodyAccMag-mean()
-Mean tBodyAccMag-std()	:-	Mean of tBodyAccMag-std()
-Mean tBodyAccMag-mad()	:-	Mean of tBodyAccMag-mad()
-Mean tBodyAccMag-max()	:-	Mean of tBodyAccMag-max()
-Mean tBodyAccMag-min()	:-	Mean of tBodyAccMag-min()
-Mean tBodyAccMag-sma()	:-	Mean of tBodyAccMag-sma()
-Mean tBodyAccMag-energy()	:-	Mean of tBodyAccMag-energy()
-Mean tBodyAccMag-iqr()	:-	Mean of tBodyAccMag-iqr()
-Mean tBodyAccMag-entropy()	:-	Mean of tBodyAccMag-entropy()
-Mean tBodyAccMag-arCoeff()1	:-	Mean of tBodyAccMag-arCoeff()1
-Mean tBodyAccMag-arCoeff()2	:-	Mean of tBodyAccMag-arCoeff()2
-Mean tBodyAccMag-arCoeff()3	:-	Mean of tBodyAccMag-arCoeff()3
-Mean tBodyAccMag-arCoeff()4	:-	Mean of tBodyAccMag-arCoeff()4
-Mean tGravityAccMag-mean()	:-	Mean of tGravityAccMag-mean()
-Mean tGravityAccMag-std()	:-	Mean of tGravityAccMag-std()
-Mean tGravityAccMag-mad()	:-	Mean of tGravityAccMag-mad()
-Mean tGravityAccMag-max()	:-	Mean of tGravityAccMag-max()
-Mean tGravityAccMag-min()	:-	Mean of tGravityAccMag-min()
-Mean tGravityAccMag-sma()	:-	Mean of tGravityAccMag-sma()
-Mean tGravityAccMag-energy()	:-	Mean of tGravityAccMag-energy()
-Mean tGravityAccMag-iqr()	:-	Mean of tGravityAccMag-iqr()
-Mean tGravityAccMag-entropy()	:-	Mean of tGravityAccMag-entropy()
-Mean tGravityAccMag-arCoeff()1	:-	Mean of tGravityAccMag-arCoeff()1
-Mean tGravityAccMag-arCoeff()2	:-	Mean of tGravityAccMag-arCoeff()2
-Mean tGravityAccMag-arCoeff()3	:-	Mean of tGravityAccMag-arCoeff()3
-Mean tGravityAccMag-arCoeff()4	:-	Mean of tGravityAccMag-arCoeff()4
-Mean tBodyAccJerkMag-mean()	:-	Mean of tBodyAccJerkMag-mean()
-Mean tBodyAccJerkMag-std()	:-	Mean of tBodyAccJerkMag-std()
-Mean tBodyAccJerkMag-mad()	:-	Mean of tBodyAccJerkMag-mad()
-Mean tBodyAccJerkMag-max()	:-	Mean of tBodyAccJerkMag-max()
-Mean tBodyAccJerkMag-min()	:-	Mean of tBodyAccJerkMag-min()
-Mean tBodyAccJerkMag-sma()	:-	Mean of tBodyAccJerkMag-sma()
-Mean tBodyAccJerkMag-energy()	:-	Mean of tBodyAccJerkMag-energy()
-Mean tBodyAccJerkMag-iqr()	:-	Mean of tBodyAccJerkMag-iqr()
-Mean tBodyAccJerkMag-entropy()	:-	Mean of tBodyAccJerkMag-entropy()
-Mean tBodyAccJerkMag-arCoeff()1	:-	Mean of tBodyAccJerkMag-arCoeff()1
-Mean tBodyAccJerkMag-arCoeff()2	:-	Mean of tBodyAccJerkMag-arCoeff()2
-Mean tBodyAccJerkMag-arCoeff()3	:-	Mean of tBodyAccJerkMag-arCoeff()3
-Mean tBodyAccJerkMag-arCoeff()4	:-	Mean of tBodyAccJerkMag-arCoeff()4
-Mean tBodyGyroMag-mean()	:-	Mean of tBodyGyroMag-mean()
-Mean tBodyGyroMag-std()	:-	Mean of tBodyGyroMag-std()
-Mean tBodyGyroMag-mad()	:-	Mean of tBodyGyroMag-mad()
-Mean tBodyGyroMag-max()	:-	Mean of tBodyGyroMag-max()
-Mean tBodyGyroMag-min()	:-	Mean of tBodyGyroMag-min()
-Mean tBodyGyroMag-sma()	:-	Mean of tBodyGyroMag-sma()
-Mean tBodyGyroMag-energy()	:-	Mean of tBodyGyroMag-energy()
-Mean tBodyGyroMag-iqr()	:-	Mean of tBodyGyroMag-iqr()
-Mean tBodyGyroMag-entropy()	:-	Mean of tBodyGyroMag-entropy()
-Mean tBodyGyroMag-arCoeff()1	:-	Mean of tBodyGyroMag-arCoeff()1
-Mean tBodyGyroMag-arCoeff()2	:-	Mean of tBodyGyroMag-arCoeff()2
-Mean tBodyGyroMag-arCoeff()3	:-	Mean of tBodyGyroMag-arCoeff()3
-Mean tBodyGyroMag-arCoeff()4	:-	Mean of tBodyGyroMag-arCoeff()4
-Mean tBodyGyroJerkMag-mean()	:-	Mean of tBodyGyroJerkMag-mean()
-Mean tBodyGyroJerkMag-std()	:-	Mean of tBodyGyroJerkMag-std()
-Mean tBodyGyroJerkMag-mad()	:-	Mean of tBodyGyroJerkMag-mad()
-Mean tBodyGyroJerkMag-max()	:-	Mean of tBodyGyroJerkMag-max()
-Mean tBodyGyroJerkMag-min()	:-	Mean of tBodyGyroJerkMag-min()
-Mean tBodyGyroJerkMag-sma()	:-	Mean of tBodyGyroJerkMag-sma()
-Mean tBodyGyroJerkMag-energy()	:-	Mean of tBodyGyroJerkMag-energy()
-Mean tBodyGyroJerkMag-iqr()	:-	Mean of tBodyGyroJerkMag-iqr()
-Mean tBodyGyroJerkMag-entropy()	:-	Mean of tBodyGyroJerkMag-entropy()
-Mean tBodyGyroJerkMag-arCoeff()1	:-	Mean of tBodyGyroJerkMag-arCoeff()1
-Mean tBodyGyroJerkMag-arCoeff()2	:-	Mean of tBodyGyroJerkMag-arCoeff()2
-Mean tBodyGyroJerkMag-arCoeff()3	:-	Mean of tBodyGyroJerkMag-arCoeff()3
-Mean tBodyGyroJerkMag-arCoeff()4	:-	Mean of tBodyGyroJerkMag-arCoeff()4
-Mean fBodyAcc-mean()-X	:-	Mean of fBodyAcc-mean()-X
-Mean fBodyAcc-mean()-Y	:-	Mean of fBodyAcc-mean()-Y
-Mean fBodyAcc-mean()-Z	:-	Mean of fBodyAcc-mean()-Z
-Mean fBodyAcc-std()-X	:-	Mean of fBodyAcc-std()-X
-Mean fBodyAcc-std()-Y	:-	Mean of fBodyAcc-std()-Y
-Mean fBodyAcc-std()-Z	:-	Mean of fBodyAcc-std()-Z
-Mean fBodyAcc-mad()-X	:-	Mean of fBodyAcc-mad()-X
-Mean fBodyAcc-mad()-Y	:-	Mean of fBodyAcc-mad()-Y
-Mean fBodyAcc-mad()-Z	:-	Mean of fBodyAcc-mad()-Z
-Mean fBodyAcc-max()-X	:-	Mean of fBodyAcc-max()-X
-Mean fBodyAcc-max()-Y	:-	Mean of fBodyAcc-max()-Y
-Mean fBodyAcc-max()-Z	:-	Mean of fBodyAcc-max()-Z
-Mean fBodyAcc-min()-X	:-	Mean of fBodyAcc-min()-X
-Mean fBodyAcc-min()-Y	:-	Mean of fBodyAcc-min()-Y
-Mean fBodyAcc-min()-Z	:-	Mean of fBodyAcc-min()-Z
-Mean fBodyAcc-sma()	:-	Mean of fBodyAcc-sma()
-Mean fBodyAcc-energy()-X	:-	Mean of fBodyAcc-energy()-X
-Mean fBodyAcc-energy()-Y	:-	Mean of fBodyAcc-energy()-Y
-Mean fBodyAcc-energy()-Z	:-	Mean of fBodyAcc-energy()-Z
-Mean fBodyAcc-iqr()-X	:-	Mean of fBodyAcc-iqr()-X
-Mean fBodyAcc-iqr()-Y	:-	Mean of fBodyAcc-iqr()-Y
-Mean fBodyAcc-iqr()-Z	:-	Mean of fBodyAcc-iqr()-Z
-Mean fBodyAcc-entropy()-X	:-	Mean of fBodyAcc-entropy()-X
-Mean fBodyAcc-entropy()-Y	:-	Mean of fBodyAcc-entropy()-Y
-Mean fBodyAcc-entropy()-Z	:-	Mean of fBodyAcc-entropy()-Z
-Mean fBodyAcc-maxInds-X	:-	Mean of fBodyAcc-maxInds-X
-Mean fBodyAcc-maxInds-Y	:-	Mean of fBodyAcc-maxInds-Y
-Mean fBodyAcc-maxInds-Z	:-	Mean of fBodyAcc-maxInds-Z
-Mean fBodyAcc-meanFreq()-X	:-	Mean of fBodyAcc-meanFreq()-X
-Mean fBodyAcc-meanFreq()-Y	:-	Mean of fBodyAcc-meanFreq()-Y
-Mean fBodyAcc-meanFreq()-Z	:-	Mean of fBodyAcc-meanFreq()-Z
-Mean fBodyAcc-skewness()-X	:-	Mean of fBodyAcc-skewness()-X
-Mean fBodyAcc-kurtosis()-X	:-	Mean of fBodyAcc-kurtosis()-X
-Mean fBodyAcc-skewness()-Y	:-	Mean of fBodyAcc-skewness()-Y
-Mean fBodyAcc-kurtosis()-Y	:-	Mean of fBodyAcc-kurtosis()-Y
-Mean fBodyAcc-skewness()-Z	:-	Mean of fBodyAcc-skewness()-Z
-Mean fBodyAcc-kurtosis()-Z	:-	Mean of fBodyAcc-kurtosis()-Z
-Mean fBodyAcc-bandsEnergy()-1,8	:-	Mean of fBodyAcc-bandsEnergy()-1,8
-Mean fBodyAcc-bandsEnergy()-9,16	:-	Mean of fBodyAcc-bandsEnergy()-9,16
-Mean fBodyAcc-bandsEnergy()-17,24	:-	Mean of fBodyAcc-bandsEnergy()-17,24
-Mean fBodyAcc-bandsEnergy()-25,32	:-	Mean of fBodyAcc-bandsEnergy()-25,32
-Mean fBodyAcc-bandsEnergy()-33,40	:-	Mean of fBodyAcc-bandsEnergy()-33,40
-Mean fBodyAcc-bandsEnergy()-41,48	:-	Mean of fBodyAcc-bandsEnergy()-41,48
-Mean fBodyAcc-bandsEnergy()-49,56	:-	Mean of fBodyAcc-bandsEnergy()-49,56
-Mean fBodyAcc-bandsEnergy()-57,64	:-	Mean of fBodyAcc-bandsEnergy()-57,64
-Mean fBodyAcc-bandsEnergy()-1,16	:-	Mean of fBodyAcc-bandsEnergy()-1,16
-Mean fBodyAcc-bandsEnergy()-17,32	:-	Mean of fBodyAcc-bandsEnergy()-17,32
-Mean fBodyAcc-bandsEnergy()-33,48	:-	Mean of fBodyAcc-bandsEnergy()-33,48
-Mean fBodyAcc-bandsEnergy()-49,64	:-	Mean of fBodyAcc-bandsEnergy()-49,64
-Mean fBodyAcc-bandsEnergy()-1,24	:-	Mean of fBodyAcc-bandsEnergy()-1,24
-Mean fBodyAcc-bandsEnergy()-25,48	:-	Mean of fBodyAcc-bandsEnergy()-25,48
-Mean fBodyAcc-bandsEnergy()-1,8.1	:-	Mean of fBodyAcc-bandsEnergy()-1,8.1
-Mean fBodyAcc-bandsEnergy()-9,16.1	:-	Mean of fBodyAcc-bandsEnergy()-9,16.1
-Mean fBodyAcc-bandsEnergy()-17,24.1	:-	Mean of fBodyAcc-bandsEnergy()-17,24.1
-Mean fBodyAcc-bandsEnergy()-25,32.1	:-	Mean of fBodyAcc-bandsEnergy()-25,32.1
-Mean fBodyAcc-bandsEnergy()-33,40.1	:-	Mean of fBodyAcc-bandsEnergy()-33,40.1
-Mean fBodyAcc-bandsEnergy()-41,48.1	:-	Mean of fBodyAcc-bandsEnergy()-41,48.1
-Mean fBodyAcc-bandsEnergy()-49,56.1	:-	Mean of fBodyAcc-bandsEnergy()-49,56.1
-Mean fBodyAcc-bandsEnergy()-57,64.1	:-	Mean of fBodyAcc-bandsEnergy()-57,64.1
-Mean fBodyAcc-bandsEnergy()-1,16.1	:-	Mean of fBodyAcc-bandsEnergy()-1,16.1
-Mean fBodyAcc-bandsEnergy()-17,32.1	:-	Mean of fBodyAcc-bandsEnergy()-17,32.1
-Mean fBodyAcc-bandsEnergy()-33,48.1	:-	Mean of fBodyAcc-bandsEnergy()-33,48.1
-Mean fBodyAcc-bandsEnergy()-49,64.1	:-	Mean of fBodyAcc-bandsEnergy()-49,64.1
-Mean fBodyAcc-bandsEnergy()-1,24.1	:-	Mean of fBodyAcc-bandsEnergy()-1,24.1
-Mean fBodyAcc-bandsEnergy()-25,48.1	:-	Mean of fBodyAcc-bandsEnergy()-25,48.1
-Mean fBodyAcc-bandsEnergy()-1,8.2	:-	Mean of fBodyAcc-bandsEnergy()-1,8.2
-Mean fBodyAcc-bandsEnergy()-9,16.2	:-	Mean of fBodyAcc-bandsEnergy()-9,16.2
-Mean fBodyAcc-bandsEnergy()-17,24.2	:-	Mean of fBodyAcc-bandsEnergy()-17,24.2
-Mean fBodyAcc-bandsEnergy()-25,32.2	:-	Mean of fBodyAcc-bandsEnergy()-25,32.2
-Mean fBodyAcc-bandsEnergy()-33,40.2	:-	Mean of fBodyAcc-bandsEnergy()-33,40.2
-Mean fBodyAcc-bandsEnergy()-41,48.2	:-	Mean of fBodyAcc-bandsEnergy()-41,48.2
-Mean fBodyAcc-bandsEnergy()-49,56.2	:-	Mean of fBodyAcc-bandsEnergy()-49,56.2
-Mean fBodyAcc-bandsEnergy()-57,64.2	:-	Mean of fBodyAcc-bandsEnergy()-57,64.2
-Mean fBodyAcc-bandsEnergy()-1,16.2	:-	Mean of fBodyAcc-bandsEnergy()-1,16.2
-Mean fBodyAcc-bandsEnergy()-17,32.2	:-	Mean of fBodyAcc-bandsEnergy()-17,32.2
-Mean fBodyAcc-bandsEnergy()-33,48.2	:-	Mean of fBodyAcc-bandsEnergy()-33,48.2
-Mean fBodyAcc-bandsEnergy()-49,64.2	:-	Mean of fBodyAcc-bandsEnergy()-49,64.2
-Mean fBodyAcc-bandsEnergy()-1,24.2	:-	Mean of fBodyAcc-bandsEnergy()-1,24.2
-Mean fBodyAcc-bandsEnergy()-25,48.2	:-	Mean of fBodyAcc-bandsEnergy()-25,48.2
-Mean fBodyAccJerk-mean()-X	:-	Mean of fBodyAccJerk-mean()-X
-Mean fBodyAccJerk-mean()-Y	:-	Mean of fBodyAccJerk-mean()-Y
-Mean fBodyAccJerk-mean()-Z	:-	Mean of fBodyAccJerk-mean()-Z
-Mean fBodyAccJerk-std()-X	:-	Mean of fBodyAccJerk-std()-X
-Mean fBodyAccJerk-std()-Y	:-	Mean of fBodyAccJerk-std()-Y
-Mean fBodyAccJerk-std()-Z	:-	Mean of fBodyAccJerk-std()-Z
-Mean fBodyAccJerk-mad()-X	:-	Mean of fBodyAccJerk-mad()-X
-Mean fBodyAccJerk-mad()-Y	:-	Mean of fBodyAccJerk-mad()-Y
-Mean fBodyAccJerk-mad()-Z	:-	Mean of fBodyAccJerk-mad()-Z
-Mean fBodyAccJerk-max()-X	:-	Mean of fBodyAccJerk-max()-X
-Mean fBodyAccJerk-max()-Y	:-	Mean of fBodyAccJerk-max()-Y
-Mean fBodyAccJerk-max()-Z	:-	Mean of fBodyAccJerk-max()-Z
-Mean fBodyAccJerk-min()-X	:-	Mean of fBodyAccJerk-min()-X
-Mean fBodyAccJerk-min()-Y	:-	Mean of fBodyAccJerk-min()-Y
-Mean fBodyAccJerk-min()-Z	:-	Mean of fBodyAccJerk-min()-Z
-Mean fBodyAccJerk-sma()	:-	Mean of fBodyAccJerk-sma()
-Mean fBodyAccJerk-energy()-X	:-	Mean of fBodyAccJerk-energy()-X
-Mean fBodyAccJerk-energy()-Y	:-	Mean of fBodyAccJerk-energy()-Y
-Mean fBodyAccJerk-energy()-Z	:-	Mean of fBodyAccJerk-energy()-Z
-Mean fBodyAccJerk-iqr()-X	:-	Mean of fBodyAccJerk-iqr()-X
-Mean fBodyAccJerk-iqr()-Y	:-	Mean of fBodyAccJerk-iqr()-Y
-Mean fBodyAccJerk-iqr()-Z	:-	Mean of fBodyAccJerk-iqr()-Z
-Mean fBodyAccJerk-entropy()-X	:-	Mean of fBodyAccJerk-entropy()-X
-Mean fBodyAccJerk-entropy()-Y	:-	Mean of fBodyAccJerk-entropy()-Y
-Mean fBodyAccJerk-entropy()-Z	:-	Mean of fBodyAccJerk-entropy()-Z
-Mean fBodyAccJerk-maxInds-X	:-	Mean of fBodyAccJerk-maxInds-X
-Mean fBodyAccJerk-maxInds-Y	:-	Mean of fBodyAccJerk-maxInds-Y
-Mean fBodyAccJerk-maxInds-Z	:-	Mean of fBodyAccJerk-maxInds-Z
-Mean fBodyAccJerk-meanFreq()-X	:-	Mean of fBodyAccJerk-meanFreq()-X
-Mean fBodyAccJerk-meanFreq()-Y	:-	Mean of fBodyAccJerk-meanFreq()-Y
-Mean fBodyAccJerk-meanFreq()-Z	:-	Mean of fBodyAccJerk-meanFreq()-Z
-Mean fBodyAccJerk-skewness()-X	:-	Mean of fBodyAccJerk-skewness()-X
-Mean fBodyAccJerk-kurtosis()-X	:-	Mean of fBodyAccJerk-kurtosis()-X
-Mean fBodyAccJerk-skewness()-Y	:-	Mean of fBodyAccJerk-skewness()-Y
-Mean fBodyAccJerk-kurtosis()-Y	:-	Mean of fBodyAccJerk-kurtosis()-Y
-Mean fBodyAccJerk-skewness()-Z	:-	Mean of fBodyAccJerk-skewness()-Z
-Mean fBodyAccJerk-kurtosis()-Z	:-	Mean of fBodyAccJerk-kurtosis()-Z
-Mean fBodyAccJerk-bandsEnergy()-1,8	:-	Mean of fBodyAccJerk-bandsEnergy()-1,8
-Mean fBodyAccJerk-bandsEnergy()-9,16	:-	Mean of fBodyAccJerk-bandsEnergy()-9,16
-Mean fBodyAccJerk-bandsEnergy()-17,24	:-	Mean of fBodyAccJerk-bandsEnergy()-17,24
-Mean fBodyAccJerk-bandsEnergy()-25,32	:-	Mean of fBodyAccJerk-bandsEnergy()-25,32
-Mean fBodyAccJerk-bandsEnergy()-33,40	:-	Mean of fBodyAccJerk-bandsEnergy()-33,40
-Mean fBodyAccJerk-bandsEnergy()-41,48	:-	Mean of fBodyAccJerk-bandsEnergy()-41,48
-Mean fBodyAccJerk-bandsEnergy()-49,56	:-	Mean of fBodyAccJerk-bandsEnergy()-49,56
-Mean fBodyAccJerk-bandsEnergy()-57,64	:-	Mean of fBodyAccJerk-bandsEnergy()-57,64
-Mean fBodyAccJerk-bandsEnergy()-1,16	:-	Mean of fBodyAccJerk-bandsEnergy()-1,16
-Mean fBodyAccJerk-bandsEnergy()-17,32	:-	Mean of fBodyAccJerk-bandsEnergy()-17,32
-Mean fBodyAccJerk-bandsEnergy()-33,48	:-	Mean of fBodyAccJerk-bandsEnergy()-33,48
-Mean fBodyAccJerk-bandsEnergy()-49,64	:-	Mean of fBodyAccJerk-bandsEnergy()-49,64
-Mean fBodyAccJerk-bandsEnergy()-1,24	:-	Mean of fBodyAccJerk-bandsEnergy()-1,24
-Mean fBodyAccJerk-bandsEnergy()-25,48	:-	Mean of fBodyAccJerk-bandsEnergy()-25,48
-Mean fBodyAccJerk-bandsEnergy()-1,8.1	:-	Mean of fBodyAccJerk-bandsEnergy()-1,8.1
-Mean fBodyAccJerk-bandsEnergy()-9,16.1	:-	Mean of fBodyAccJerk-bandsEnergy()-9,16.1
-Mean fBodyAccJerk-bandsEnergy()-17,24.1	:-	Mean of fBodyAccJerk-bandsEnergy()-17,24.1
-Mean fBodyAccJerk-bandsEnergy()-25,32.1	:-	Mean of fBodyAccJerk-bandsEnergy()-25,32.1
-Mean fBodyAccJerk-bandsEnergy()-33,40.1	:-	Mean of fBodyAccJerk-bandsEnergy()-33,40.1
-Mean fBodyAccJerk-bandsEnergy()-41,48.1	:-	Mean of fBodyAccJerk-bandsEnergy()-41,48.1
-Mean fBodyAccJerk-bandsEnergy()-49,56.1	:-	Mean of fBodyAccJerk-bandsEnergy()-49,56.1
-Mean fBodyAccJerk-bandsEnergy()-57,64.1	:-	Mean of fBodyAccJerk-bandsEnergy()-57,64.1
-Mean fBodyAccJerk-bandsEnergy()-1,16.1	:-	Mean of fBodyAccJerk-bandsEnergy()-1,16.1
-Mean fBodyAccJerk-bandsEnergy()-17,32.1	:-	Mean of fBodyAccJerk-bandsEnergy()-17,32.1
-Mean fBodyAccJerk-bandsEnergy()-33,48.1	:-	Mean of fBodyAccJerk-bandsEnergy()-33,48.1
-Mean fBodyAccJerk-bandsEnergy()-49,64.1	:-	Mean of fBodyAccJerk-bandsEnergy()-49,64.1
-Mean fBodyAccJerk-bandsEnergy()-1,24.1	:-	Mean of fBodyAccJerk-bandsEnergy()-1,24.1
-Mean fBodyAccJerk-bandsEnergy()-25,48.1	:-	Mean of fBodyAccJerk-bandsEnergy()-25,48.1
-Mean fBodyAccJerk-bandsEnergy()-1,8.2	:-	Mean of fBodyAccJerk-bandsEnergy()-1,8.2
-Mean fBodyAccJerk-bandsEnergy()-9,16.2	:-	Mean of fBodyAccJerk-bandsEnergy()-9,16.2
-Mean fBodyAccJerk-bandsEnergy()-17,24.2	:-	Mean of fBodyAccJerk-bandsEnergy()-17,24.2
-Mean fBodyAccJerk-bandsEnergy()-25,32.2	:-	Mean of fBodyAccJerk-bandsEnergy()-25,32.2
-Mean fBodyAccJerk-bandsEnergy()-33,40.2	:-	Mean of fBodyAccJerk-bandsEnergy()-33,40.2
-Mean fBodyAccJerk-bandsEnergy()-41,48.2	:-	Mean of fBodyAccJerk-bandsEnergy()-41,48.2
-Mean fBodyAccJerk-bandsEnergy()-49,56.2	:-	Mean of fBodyAccJerk-bandsEnergy()-49,56.2
-Mean fBodyAccJerk-bandsEnergy()-57,64.2	:-	Mean of fBodyAccJerk-bandsEnergy()-57,64.2
-Mean fBodyAccJerk-bandsEnergy()-1,16.2	:-	Mean of fBodyAccJerk-bandsEnergy()-1,16.2
-Mean fBodyAccJerk-bandsEnergy()-17,32.2	:-	Mean of fBodyAccJerk-bandsEnergy()-17,32.2
-Mean fBodyAccJerk-bandsEnergy()-33,48.2	:-	Mean of fBodyAccJerk-bandsEnergy()-33,48.2
-Mean fBodyAccJerk-bandsEnergy()-49,64.2	:-	Mean of fBodyAccJerk-bandsEnergy()-49,64.2
-Mean fBodyAccJerk-bandsEnergy()-1,24.2	:-	Mean of fBodyAccJerk-bandsEnergy()-1,24.2
-Mean fBodyAccJerk-bandsEnergy()-25,48.2	:-	Mean of fBodyAccJerk-bandsEnergy()-25,48.2
-Mean fBodyGyro-mean()-X	:-	Mean of fBodyGyro-mean()-X
-Mean fBodyGyro-mean()-Y	:-	Mean of fBodyGyro-mean()-Y
-Mean fBodyGyro-mean()-Z	:-	Mean of fBodyGyro-mean()-Z
-Mean fBodyGyro-std()-X	:-	Mean of fBodyGyro-std()-X
-Mean fBodyGyro-std()-Y	:-	Mean of fBodyGyro-std()-Y
-Mean fBodyGyro-std()-Z	:-	Mean of fBodyGyro-std()-Z
-Mean fBodyGyro-mad()-X	:-	Mean of fBodyGyro-mad()-X
-Mean fBodyGyro-mad()-Y	:-	Mean of fBodyGyro-mad()-Y
-Mean fBodyGyro-mad()-Z	:-	Mean of fBodyGyro-mad()-Z
-Mean fBodyGyro-max()-X	:-	Mean of fBodyGyro-max()-X
-Mean fBodyGyro-max()-Y	:-	Mean of fBodyGyro-max()-Y
-Mean fBodyGyro-max()-Z	:-	Mean of fBodyGyro-max()-Z
-Mean fBodyGyro-min()-X	:-	Mean of fBodyGyro-min()-X
-Mean fBodyGyro-min()-Y	:-	Mean of fBodyGyro-min()-Y
-Mean fBodyGyro-min()-Z	:-	Mean of fBodyGyro-min()-Z
-Mean fBodyGyro-sma()	:-	Mean of fBodyGyro-sma()
-Mean fBodyGyro-energy()-X	:-	Mean of fBodyGyro-energy()-X
-Mean fBodyGyro-energy()-Y	:-	Mean of fBodyGyro-energy()-Y
-Mean fBodyGyro-energy()-Z	:-	Mean of fBodyGyro-energy()-Z
-Mean fBodyGyro-iqr()-X	:-	Mean of fBodyGyro-iqr()-X
-Mean fBodyGyro-iqr()-Y	:-	Mean of fBodyGyro-iqr()-Y
-Mean fBodyGyro-iqr()-Z	:-	Mean of fBodyGyro-iqr()-Z
-Mean fBodyGyro-entropy()-X	:-	Mean of fBodyGyro-entropy()-X
-Mean fBodyGyro-entropy()-Y	:-	Mean of fBodyGyro-entropy()-Y
-Mean fBodyGyro-entropy()-Z	:-	Mean of fBodyGyro-entropy()-Z
-Mean fBodyGyro-maxInds-X	:-	Mean of fBodyGyro-maxInds-X
-Mean fBodyGyro-maxInds-Y	:-	Mean of fBodyGyro-maxInds-Y
-Mean fBodyGyro-maxInds-Z	:-	Mean of fBodyGyro-maxInds-Z
-Mean fBodyGyro-meanFreq()-X	:-	Mean of fBodyGyro-meanFreq()-X
-Mean fBodyGyro-meanFreq()-Y	:-	Mean of fBodyGyro-meanFreq()-Y
-Mean fBodyGyro-meanFreq()-Z	:-	Mean of fBodyGyro-meanFreq()-Z
-Mean fBodyGyro-skewness()-X	:-	Mean of fBodyGyro-skewness()-X
-Mean fBodyGyro-kurtosis()-X	:-	Mean of fBodyGyro-kurtosis()-X
-Mean fBodyGyro-skewness()-Y	:-	Mean of fBodyGyro-skewness()-Y
-Mean fBodyGyro-kurtosis()-Y	:-	Mean of fBodyGyro-kurtosis()-Y
-Mean fBodyGyro-skewness()-Z	:-	Mean of fBodyGyro-skewness()-Z
-Mean fBodyGyro-kurtosis()-Z	:-	Mean of fBodyGyro-kurtosis()-Z
-Mean fBodyGyro-bandsEnergy()-1,8	:-	Mean of fBodyGyro-bandsEnergy()-1,8
-Mean fBodyGyro-bandsEnergy()-9,16	:-	Mean of fBodyGyro-bandsEnergy()-9,16
-Mean fBodyGyro-bandsEnergy()-17,24	:-	Mean of fBodyGyro-bandsEnergy()-17,24
-Mean fBodyGyro-bandsEnergy()-25,32	:-	Mean of fBodyGyro-bandsEnergy()-25,32
-Mean fBodyGyro-bandsEnergy()-33,40	:-	Mean of fBodyGyro-bandsEnergy()-33,40
-Mean fBodyGyro-bandsEnergy()-41,48	:-	Mean of fBodyGyro-bandsEnergy()-41,48
-Mean fBodyGyro-bandsEnergy()-49,56	:-	Mean of fBodyGyro-bandsEnergy()-49,56
-Mean fBodyGyro-bandsEnergy()-57,64	:-	Mean of fBodyGyro-bandsEnergy()-57,64
-Mean fBodyGyro-bandsEnergy()-1,16	:-	Mean of fBodyGyro-bandsEnergy()-1,16
-Mean fBodyGyro-bandsEnergy()-17,32	:-	Mean of fBodyGyro-bandsEnergy()-17,32
-Mean fBodyGyro-bandsEnergy()-33,48	:-	Mean of fBodyGyro-bandsEnergy()-33,48
-Mean fBodyGyro-bandsEnergy()-49,64	:-	Mean of fBodyGyro-bandsEnergy()-49,64
-Mean fBodyGyro-bandsEnergy()-1,24	:-	Mean of fBodyGyro-bandsEnergy()-1,24
-Mean fBodyGyro-bandsEnergy()-25,48	:-	Mean of fBodyGyro-bandsEnergy()-25,48
-Mean fBodyGyro-bandsEnergy()-1,8.1	:-	Mean of fBodyGyro-bandsEnergy()-1,8.1
-Mean fBodyGyro-bandsEnergy()-9,16.1	:-	Mean of fBodyGyro-bandsEnergy()-9,16.1
-Mean fBodyGyro-bandsEnergy()-17,24.1	:-	Mean of fBodyGyro-bandsEnergy()-17,24.1
-Mean fBodyGyro-bandsEnergy()-25,32.1	:-	Mean of fBodyGyro-bandsEnergy()-25,32.1
-Mean fBodyGyro-bandsEnergy()-33,40.1	:-	Mean of fBodyGyro-bandsEnergy()-33,40.1
-Mean fBodyGyro-bandsEnergy()-41,48.1	:-	Mean of fBodyGyro-bandsEnergy()-41,48.1
-Mean fBodyGyro-bandsEnergy()-49,56.1	:-	Mean of fBodyGyro-bandsEnergy()-49,56.1
-Mean fBodyGyro-bandsEnergy()-57,64.1	:-	Mean of fBodyGyro-bandsEnergy()-57,64.1
-Mean fBodyGyro-bandsEnergy()-1,16.1	:-	Mean of fBodyGyro-bandsEnergy()-1,16.1
-Mean fBodyGyro-bandsEnergy()-17,32.1	:-	Mean of fBodyGyro-bandsEnergy()-17,32.1
-Mean fBodyGyro-bandsEnergy()-33,48.1	:-	Mean of fBodyGyro-bandsEnergy()-33,48.1
-Mean fBodyGyro-bandsEnergy()-49,64.1	:-	Mean of fBodyGyro-bandsEnergy()-49,64.1
-Mean fBodyGyro-bandsEnergy()-1,24.1	:-	Mean of fBodyGyro-bandsEnergy()-1,24.1
-Mean fBodyGyro-bandsEnergy()-25,48.1	:-	Mean of fBodyGyro-bandsEnergy()-25,48.1
-Mean fBodyGyro-bandsEnergy()-1,8.2	:-	Mean of fBodyGyro-bandsEnergy()-1,8.2
-Mean fBodyGyro-bandsEnergy()-9,16.2	:-	Mean of fBodyGyro-bandsEnergy()-9,16.2
-Mean fBodyGyro-bandsEnergy()-17,24.2	:-	Mean of fBodyGyro-bandsEnergy()-17,24.2
-Mean fBodyGyro-bandsEnergy()-25,32.2	:-	Mean of fBodyGyro-bandsEnergy()-25,32.2
-Mean fBodyGyro-bandsEnergy()-33,40.2	:-	Mean of fBodyGyro-bandsEnergy()-33,40.2
-Mean fBodyGyro-bandsEnergy()-41,48.2	:-	Mean of fBodyGyro-bandsEnergy()-41,48.2
-Mean fBodyGyro-bandsEnergy()-49,56.2	:-	Mean of fBodyGyro-bandsEnergy()-49,56.2
-Mean fBodyGyro-bandsEnergy()-57,64.2	:-	Mean of fBodyGyro-bandsEnergy()-57,64.2
-Mean fBodyGyro-bandsEnergy()-1,16.2	:-	Mean of fBodyGyro-bandsEnergy()-1,16.2
-Mean fBodyGyro-bandsEnergy()-17,32.2	:-	Mean of fBodyGyro-bandsEnergy()-17,32.2
-Mean fBodyGyro-bandsEnergy()-33,48.2	:-	Mean of fBodyGyro-bandsEnergy()-33,48.2
-Mean fBodyGyro-bandsEnergy()-49,64.2	:-	Mean of fBodyGyro-bandsEnergy()-49,64.2
-Mean fBodyGyro-bandsEnergy()-1,24.2	:-	Mean of fBodyGyro-bandsEnergy()-1,24.2
-Mean fBodyGyro-bandsEnergy()-25,48.2	:-	Mean of fBodyGyro-bandsEnergy()-25,48.2
-Mean fBodyAccMag-mean()	:-	Mean of fBodyAccMag-mean()
-Mean fBodyAccMag-std()	:-	Mean of fBodyAccMag-std()
-Mean fBodyAccMag-mad()	:-	Mean of fBodyAccMag-mad()
-Mean fBodyAccMag-max()	:-	Mean of fBodyAccMag-max()
-Mean fBodyAccMag-min()	:-	Mean of fBodyAccMag-min()
-Mean fBodyAccMag-sma()	:-	Mean of fBodyAccMag-sma()
-Mean fBodyAccMag-energy()	:-	Mean of fBodyAccMag-energy()
-Mean fBodyAccMag-iqr()	:-	Mean of fBodyAccMag-iqr()
-Mean fBodyAccMag-entropy()	:-	Mean of fBodyAccMag-entropy()
-Mean fBodyAccMag-maxInds	:-	Mean of fBodyAccMag-maxInds
-Mean fBodyAccMag-meanFreq()	:-	Mean of fBodyAccMag-meanFreq()
-Mean fBodyAccMag-skewness()	:-	Mean of fBodyAccMag-skewness()
-Mean fBodyAccMag-kurtosis()	:-	Mean of fBodyAccMag-kurtosis()
-Mean fBodyBodyAccJerkMag-mean()	:-	Mean of fBodyBodyAccJerkMag-mean()
-Mean fBodyBodyAccJerkMag-std()	:-	Mean of fBodyBodyAccJerkMag-std()
-Mean fBodyBodyAccJerkMag-mad()	:-	Mean of fBodyBodyAccJerkMag-mad()
-Mean fBodyBodyAccJerkMag-max()	:-	Mean of fBodyBodyAccJerkMag-max()
-Mean fBodyBodyAccJerkMag-min()	:-	Mean of fBodyBodyAccJerkMag-min()
-Mean fBodyBodyAccJerkMag-sma()	:-	Mean of fBodyBodyAccJerkMag-sma()
-Mean fBodyBodyAccJerkMag-energy()	:-	Mean of fBodyBodyAccJerkMag-energy()
-Mean fBodyBodyAccJerkMag-iqr()	:-	Mean of fBodyBodyAccJerkMag-iqr()
-Mean fBodyBodyAccJerkMag-entropy()	:-	Mean of fBodyBodyAccJerkMag-entropy()
-Mean fBodyBodyAccJerkMag-maxInds	:-	Mean of fBodyBodyAccJerkMag-maxInds
-Mean fBodyBodyAccJerkMag-meanFreq()	:-	Mean of fBodyBodyAccJerkMag-meanFreq()
-Mean fBodyBodyAccJerkMag-skewness()	:-	Mean of fBodyBodyAccJerkMag-skewness()
-Mean fBodyBodyAccJerkMag-kurtosis()	:-	Mean of fBodyBodyAccJerkMag-kurtosis()
-Mean fBodyBodyGyroMag-mean()	:-	Mean of fBodyBodyGyroMag-mean()
-Mean fBodyBodyGyroMag-std()	:-	Mean of fBodyBodyGyroMag-std()
-Mean fBodyBodyGyroMag-mad()	:-	Mean of fBodyBodyGyroMag-mad()
-Mean fBodyBodyGyroMag-max()	:-	Mean of fBodyBodyGyroMag-max()
-Mean fBodyBodyGyroMag-min()	:-	Mean of fBodyBodyGyroMag-min()
-Mean fBodyBodyGyroMag-sma()	:-	Mean of fBodyBodyGyroMag-sma()
-Mean fBodyBodyGyroMag-energy()	:-	Mean of fBodyBodyGyroMag-energy()
-Mean fBodyBodyGyroMag-iqr()	:-	Mean of fBodyBodyGyroMag-iqr()
-Mean fBodyBodyGyroMag-entropy()	:-	Mean of fBodyBodyGyroMag-entropy()
-Mean fBodyBodyGyroMag-maxInds	:-	Mean of fBodyBodyGyroMag-maxInds
-Mean fBodyBodyGyroMag-meanFreq()	:-	Mean of fBodyBodyGyroMag-meanFreq()
-Mean fBodyBodyGyroMag-skewness()	:-	Mean of fBodyBodyGyroMag-skewness()
-Mean fBodyBodyGyroMag-kurtosis()	:-	Mean of fBodyBodyGyroMag-kurtosis()
-Mean fBodyBodyGyroJerkMag-mean()	:-	Mean of fBodyBodyGyroJerkMag-mean()
-Mean fBodyBodyGyroJerkMag-std()	:-	Mean of fBodyBodyGyroJerkMag-std()
-Mean fBodyBodyGyroJerkMag-mad()	:-	Mean of fBodyBodyGyroJerkMag-mad()
-Mean fBodyBodyGyroJerkMag-max()	:-	Mean of fBodyBodyGyroJerkMag-max()
-Mean fBodyBodyGyroJerkMag-min()	:-	Mean of fBodyBodyGyroJerkMag-min()
-Mean fBodyBodyGyroJerkMag-sma()	:-	Mean of fBodyBodyGyroJerkMag-sma()
-Mean fBodyBodyGyroJerkMag-energy()	:-	Mean of fBodyBodyGyroJerkMag-energy()
-Mean fBodyBodyGyroJerkMag-iqr()	:-	Mean of fBodyBodyGyroJerkMag-iqr()
-Mean fBodyBodyGyroJerkMag-entropy()	:-	Mean of fBodyBodyGyroJerkMag-entropy()
-Mean fBodyBodyGyroJerkMag-maxInds	:-	Mean of fBodyBodyGyroJerkMag-maxInds
-Mean fBodyBodyGyroJerkMag-meanFreq()	:-	Mean of fBodyBodyGyroJerkMag-meanFreq()
-Mean fBodyBodyGyroJerkMag-skewness()	:-	Mean of fBodyBodyGyroJerkMag-skewness()
-Mean fBodyBodyGyroJerkMag-kurtosis()	:-	Mean of fBodyBodyGyroJerkMag-kurtosis()
-Mean angle(tBodyAccMean,gravity)	:-	Mean of angle(tBodyAccMean,gravity)
-Mean angle(tBodyAccJerkMean),gravityMean)	:-	Mean of angle(tBodyAccJerkMean),gravityMean)
-Mean angle(tBodyGyroMean,gravityMean)	:-	Mean of angle(tBodyGyroMean,gravityMean)
-Mean angle(tBodyGyroJerkMean,gravityMean)	:-	Mean of angle(tBodyGyroJerkMean,gravityMean)
-Mean angle(X,gravityMean)	:-	Mean of angle(X,gravityMean)
-Mean angle(Y,gravityMean)	:-	Mean of angle(Y,gravityMean)
-Mean angle(Z,gravityMean)	:-	Mean of angle(Z,gravityMean)
+3. 	Mean tBodyAcc-mean()-X	:-	Mean of tBodyAcc-mean()-X
+4. 	Mean tBodyAcc-mean()-Y	:-	Mean of tBodyAcc-mean()-Y
+5. 	Mean tBodyAcc-mean()-Z	:-	Mean of tBodyAcc-mean()-Z
+6. 	Mean tBodyAcc-std()-X	:-	Mean of tBodyAcc-std()-X
+7. 	Mean tBodyAcc-std()-Y	:-	Mean of tBodyAcc-std()-Y
+8. 	Mean tBodyAcc-std()-Z	:-	Mean of tBodyAcc-std()-Z
+9. 	Mean tBodyAcc-mad()-X	:-	Mean of tBodyAcc-mad()-X
+10. 	Mean tBodyAcc-mad()-Y	:-	Mean of tBodyAcc-mad()-Y
+11. 	Mean tBodyAcc-mad()-Z	:-	Mean of tBodyAcc-mad()-Z
+12. 	Mean tBodyAcc-max()-X	:-	Mean of tBodyAcc-max()-X
+13. 	Mean tBodyAcc-max()-Y	:-	Mean of tBodyAcc-max()-Y
+14. 	Mean tBodyAcc-max()-Z	:-	Mean of tBodyAcc-max()-Z
+15. 	Mean tBodyAcc-min()-X	:-	Mean of tBodyAcc-min()-X
+16. 	Mean tBodyAcc-min()-Y	:-	Mean of tBodyAcc-min()-Y
+17. 	Mean tBodyAcc-min()-Z	:-	Mean of tBodyAcc-min()-Z
+18. 	Mean tBodyAcc-sma()	:-	Mean of tBodyAcc-sma()
+19. 	Mean tBodyAcc-energy()-X	:-	Mean of tBodyAcc-energy()-X
+20. 	Mean tBodyAcc-energy()-Y	:-	Mean of tBodyAcc-energy()-Y
+21. 	Mean tBodyAcc-energy()-Z	:-	Mean of tBodyAcc-energy()-Z
+22. 	Mean tBodyAcc-iqr()-X	:-	Mean of tBodyAcc-iqr()-X
+23. 	Mean tBodyAcc-iqr()-Y	:-	Mean of tBodyAcc-iqr()-Y
+24. 	Mean tBodyAcc-iqr()-Z	:-	Mean of tBodyAcc-iqr()-Z
+25. 	Mean tBodyAcc-entropy()-X	:-	Mean of tBodyAcc-entropy()-X
+26. 	Mean tBodyAcc-entropy()-Y	:-	Mean of tBodyAcc-entropy()-Y
+27. 	Mean tBodyAcc-entropy()-Z	:-	Mean of tBodyAcc-entropy()-Z
+28. 	Mean tBodyAcc-arCoeff()-X,1	:-	Mean of tBodyAcc-arCoeff()-X,1
+29. 	Mean tBodyAcc-arCoeff()-X,2	:-	Mean of tBodyAcc-arCoeff()-X,2
+30. 	Mean tBodyAcc-arCoeff()-X,3	:-	Mean of tBodyAcc-arCoeff()-X,3
+31. 	Mean tBodyAcc-arCoeff()-X,4	:-	Mean of tBodyAcc-arCoeff()-X,4
+32. 	Mean tBodyAcc-arCoeff()-Y,1	:-	Mean of tBodyAcc-arCoeff()-Y,1
+33. 	Mean tBodyAcc-arCoeff()-Y,2	:-	Mean of tBodyAcc-arCoeff()-Y,2
+34. 	Mean tBodyAcc-arCoeff()-Y,3	:-	Mean of tBodyAcc-arCoeff()-Y,3
+35. 	Mean tBodyAcc-arCoeff()-Y,4	:-	Mean of tBodyAcc-arCoeff()-Y,4
+36. 	Mean tBodyAcc-arCoeff()-Z,1	:-	Mean of tBodyAcc-arCoeff()-Z,1
+37. 	Mean tBodyAcc-arCoeff()-Z,2	:-	Mean of tBodyAcc-arCoeff()-Z,2
+38. 	Mean tBodyAcc-arCoeff()-Z,3	:-	Mean of tBodyAcc-arCoeff()-Z,3
+39. 	Mean tBodyAcc-arCoeff()-Z,4	:-	Mean of tBodyAcc-arCoeff()-Z,4
+40. 	Mean tBodyAcc-correlation()-X,Y	:-	Mean of tBodyAcc-correlation()-X,Y
+41. 	Mean tBodyAcc-correlation()-X,Z	:-	Mean of tBodyAcc-correlation()-X,Z
+42. 	Mean tBodyAcc-correlation()-Y,Z	:-	Mean of tBodyAcc-correlation()-Y,Z
+43. 	Mean tGravityAcc-mean()-X	:-	Mean of tGravityAcc-mean()-X
+44. 	Mean tGravityAcc-mean()-Y	:-	Mean of tGravityAcc-mean()-Y
+45. 	Mean tGravityAcc-mean()-Z	:-	Mean of tGravityAcc-mean()-Z
+46. 	Mean tGravityAcc-std()-X	:-	Mean of tGravityAcc-std()-X
+47. 	Mean tGravityAcc-std()-Y	:-	Mean of tGravityAcc-std()-Y
+48. 	Mean tGravityAcc-std()-Z	:-	Mean of tGravityAcc-std()-Z
+49. 	Mean tGravityAcc-mad()-X	:-	Mean of tGravityAcc-mad()-X
+50. 	Mean tGravityAcc-mad()-Y	:-	Mean of tGravityAcc-mad()-Y
+51. 	Mean tGravityAcc-mad()-Z	:-	Mean of tGravityAcc-mad()-Z
+52. 	Mean tGravityAcc-max()-X	:-	Mean of tGravityAcc-max()-X
+53. 	Mean tGravityAcc-max()-Y	:-	Mean of tGravityAcc-max()-Y
+54. 	Mean tGravityAcc-max()-Z	:-	Mean of tGravityAcc-max()-Z
+55. 	Mean tGravityAcc-min()-X	:-	Mean of tGravityAcc-min()-X
+56. 	Mean tGravityAcc-min()-Y	:-	Mean of tGravityAcc-min()-Y
+57. 	Mean tGravityAcc-min()-Z	:-	Mean of tGravityAcc-min()-Z
+58. 	Mean tGravityAcc-sma()	:-	Mean of tGravityAcc-sma()
+59. 	Mean tGravityAcc-energy()-X	:-	Mean of tGravityAcc-energy()-X
+60. 	Mean tGravityAcc-energy()-Y	:-	Mean of tGravityAcc-energy()-Y
+61. 	Mean tGravityAcc-energy()-Z	:-	Mean of tGravityAcc-energy()-Z
+62. 	Mean tGravityAcc-iqr()-X	:-	Mean of tGravityAcc-iqr()-X
+63. 	Mean tGravityAcc-iqr()-Y	:-	Mean of tGravityAcc-iqr()-Y
+64. 	Mean tGravityAcc-iqr()-Z	:-	Mean of tGravityAcc-iqr()-Z
+65. 	Mean tGravityAcc-entropy()-X	:-	Mean of tGravityAcc-entropy()-X
+66. 	Mean tGravityAcc-entropy()-Y	:-	Mean of tGravityAcc-entropy()-Y
+67. 	Mean tGravityAcc-entropy()-Z	:-	Mean of tGravityAcc-entropy()-Z
+68. 	Mean tGravityAcc-arCoeff()-X,1	:-	Mean of tGravityAcc-arCoeff()-X,1
+69. 	Mean tGravityAcc-arCoeff()-X,2	:-	Mean of tGravityAcc-arCoeff()-X,2
+70. 	Mean tGravityAcc-arCoeff()-X,3	:-	Mean of tGravityAcc-arCoeff()-X,3
+71. 	Mean tGravityAcc-arCoeff()-X,4	:-	Mean of tGravityAcc-arCoeff()-X,4
+72. 	Mean tGravityAcc-arCoeff()-Y,1	:-	Mean of tGravityAcc-arCoeff()-Y,1
+73. 	Mean tGravityAcc-arCoeff()-Y,2	:-	Mean of tGravityAcc-arCoeff()-Y,2
+74. 	Mean tGravityAcc-arCoeff()-Y,3	:-	Mean of tGravityAcc-arCoeff()-Y,3
+75. 	Mean tGravityAcc-arCoeff()-Y,4	:-	Mean of tGravityAcc-arCoeff()-Y,4
+76. 	Mean tGravityAcc-arCoeff()-Z,1	:-	Mean of tGravityAcc-arCoeff()-Z,1
+77. 	Mean tGravityAcc-arCoeff()-Z,2	:-	Mean of tGravityAcc-arCoeff()-Z,2
+78. 	Mean tGravityAcc-arCoeff()-Z,3	:-	Mean of tGravityAcc-arCoeff()-Z,3
+79. 	Mean tGravityAcc-arCoeff()-Z,4	:-	Mean of tGravityAcc-arCoeff()-Z,4
+80. 	Mean tGravityAcc-correlation()-X,Y	:-	Mean of tGravityAcc-correlation()-X,Y
+81. 	Mean tGravityAcc-correlation()-X,Z	:-	Mean of tGravityAcc-correlation()-X,Z
+82. 	Mean tGravityAcc-correlation()-Y,Z	:-	Mean of tGravityAcc-correlation()-Y,Z
+83. 	Mean tBodyAccJerk-mean()-X	:-	Mean of tBodyAccJerk-mean()-X
+84. 	Mean tBodyAccJerk-mean()-Y	:-	Mean of tBodyAccJerk-mean()-Y
+85. 	Mean tBodyAccJerk-mean()-Z	:-	Mean of tBodyAccJerk-mean()-Z
+86. 	Mean tBodyAccJerk-std()-X	:-	Mean of tBodyAccJerk-std()-X
+87. 	Mean tBodyAccJerk-std()-Y	:-	Mean of tBodyAccJerk-std()-Y
+88. 	Mean tBodyAccJerk-std()-Z	:-	Mean of tBodyAccJerk-std()-Z
+89. 	Mean tBodyAccJerk-mad()-X	:-	Mean of tBodyAccJerk-mad()-X
+90. 	Mean tBodyAccJerk-mad()-Y	:-	Mean of tBodyAccJerk-mad()-Y
+91. 	Mean tBodyAccJerk-mad()-Z	:-	Mean of tBodyAccJerk-mad()-Z
+92. 	Mean tBodyAccJerk-max()-X	:-	Mean of tBodyAccJerk-max()-X
+93. 	Mean tBodyAccJerk-max()-Y	:-	Mean of tBodyAccJerk-max()-Y
+94. 	Mean tBodyAccJerk-max()-Z	:-	Mean of tBodyAccJerk-max()-Z
+95. 	Mean tBodyAccJerk-min()-X	:-	Mean of tBodyAccJerk-min()-X
+96. 	Mean tBodyAccJerk-min()-Y	:-	Mean of tBodyAccJerk-min()-Y
+97. 	Mean tBodyAccJerk-min()-Z	:-	Mean of tBodyAccJerk-min()-Z
+98. 	Mean tBodyAccJerk-sma()	:-	Mean of tBodyAccJerk-sma()
+99. 	Mean tBodyAccJerk-energy()-X	:-	Mean of tBodyAccJerk-energy()-X
+100. 	Mean tBodyAccJerk-energy()-Y	:-	Mean of tBodyAccJerk-energy()-Y
+101. 	Mean tBodyAccJerk-energy()-Z	:-	Mean of tBodyAccJerk-energy()-Z
+102. 	Mean tBodyAccJerk-iqr()-X	:-	Mean of tBodyAccJerk-iqr()-X
+103. 	Mean tBodyAccJerk-iqr()-Y	:-	Mean of tBodyAccJerk-iqr()-Y
+104. 	Mean tBodyAccJerk-iqr()-Z	:-	Mean of tBodyAccJerk-iqr()-Z
+105. 	Mean tBodyAccJerk-entropy()-X	:-	Mean of tBodyAccJerk-entropy()-X
+106. 	Mean tBodyAccJerk-entropy()-Y	:-	Mean of tBodyAccJerk-entropy()-Y
+107. 	Mean tBodyAccJerk-entropy()-Z	:-	Mean of tBodyAccJerk-entropy()-Z
+108. 	Mean tBodyAccJerk-arCoeff()-X,1	:-	Mean of tBodyAccJerk-arCoeff()-X,1
+109. 	Mean tBodyAccJerk-arCoeff()-X,2	:-	Mean of tBodyAccJerk-arCoeff()-X,2
+110. 	Mean tBodyAccJerk-arCoeff()-X,3	:-	Mean of tBodyAccJerk-arCoeff()-X,3
+111. 	Mean tBodyAccJerk-arCoeff()-X,4	:-	Mean of tBodyAccJerk-arCoeff()-X,4
+112. 	Mean tBodyAccJerk-arCoeff()-Y,1	:-	Mean of tBodyAccJerk-arCoeff()-Y,1
+113. 	Mean tBodyAccJerk-arCoeff()-Y,2	:-	Mean of tBodyAccJerk-arCoeff()-Y,2
+114. 	Mean tBodyAccJerk-arCoeff()-Y,3	:-	Mean of tBodyAccJerk-arCoeff()-Y,3
+115. 	Mean tBodyAccJerk-arCoeff()-Y,4	:-	Mean of tBodyAccJerk-arCoeff()-Y,4
+116. 	Mean tBodyAccJerk-arCoeff()-Z,1	:-	Mean of tBodyAccJerk-arCoeff()-Z,1
+117. 	Mean tBodyAccJerk-arCoeff()-Z,2	:-	Mean of tBodyAccJerk-arCoeff()-Z,2
+118. 	Mean tBodyAccJerk-arCoeff()-Z,3	:-	Mean of tBodyAccJerk-arCoeff()-Z,3
+119. 	Mean tBodyAccJerk-arCoeff()-Z,4	:-	Mean of tBodyAccJerk-arCoeff()-Z,4
+120. 	Mean tBodyAccJerk-correlation()-X,Y	:-	Mean of tBodyAccJerk-correlation()-X,Y
+121. 	Mean tBodyAccJerk-correlation()-X,Z	:-	Mean of tBodyAccJerk-correlation()-X,Z
+122. 	Mean tBodyAccJerk-correlation()-Y,Z	:-	Mean of tBodyAccJerk-correlation()-Y,Z
+123. 	Mean tBodyGyro-mean()-X	:-	Mean of tBodyGyro-mean()-X
+124. 	Mean tBodyGyro-mean()-Y	:-	Mean of tBodyGyro-mean()-Y
+125. 	Mean tBodyGyro-mean()-Z	:-	Mean of tBodyGyro-mean()-Z
+126. 	Mean tBodyGyro-std()-X	:-	Mean of tBodyGyro-std()-X
+127. 	Mean tBodyGyro-std()-Y	:-	Mean of tBodyGyro-std()-Y
+128. 	Mean tBodyGyro-std()-Z	:-	Mean of tBodyGyro-std()-Z
+129. 	Mean tBodyGyro-mad()-X	:-	Mean of tBodyGyro-mad()-X
+130. 	Mean tBodyGyro-mad()-Y	:-	Mean of tBodyGyro-mad()-Y
+131. 	Mean tBodyGyro-mad()-Z	:-	Mean of tBodyGyro-mad()-Z
+132. 	Mean tBodyGyro-max()-X	:-	Mean of tBodyGyro-max()-X
+133. 	Mean tBodyGyro-max()-Y	:-	Mean of tBodyGyro-max()-Y
+134. 	Mean tBodyGyro-max()-Z	:-	Mean of tBodyGyro-max()-Z
+135. 	Mean tBodyGyro-min()-X	:-	Mean of tBodyGyro-min()-X
+136. 	Mean tBodyGyro-min()-Y	:-	Mean of tBodyGyro-min()-Y
+137. 	Mean tBodyGyro-min()-Z	:-	Mean of tBodyGyro-min()-Z
+138. 	Mean tBodyGyro-sma()	:-	Mean of tBodyGyro-sma()
+139. 	Mean tBodyGyro-energy()-X	:-	Mean of tBodyGyro-energy()-X
+140. 	Mean tBodyGyro-energy()-Y	:-	Mean of tBodyGyro-energy()-Y
+141. 	Mean tBodyGyro-energy()-Z	:-	Mean of tBodyGyro-energy()-Z
+142. 	Mean tBodyGyro-iqr()-X	:-	Mean of tBodyGyro-iqr()-X
+143. 	Mean tBodyGyro-iqr()-Y	:-	Mean of tBodyGyro-iqr()-Y
+144. 	Mean tBodyGyro-iqr()-Z	:-	Mean of tBodyGyro-iqr()-Z
+145. 	Mean tBodyGyro-entropy()-X	:-	Mean of tBodyGyro-entropy()-X
+146. 	Mean tBodyGyro-entropy()-Y	:-	Mean of tBodyGyro-entropy()-Y
+147. 	Mean tBodyGyro-entropy()-Z	:-	Mean of tBodyGyro-entropy()-Z
+148. 	Mean tBodyGyro-arCoeff()-X,1	:-	Mean of tBodyGyro-arCoeff()-X,1
+149. 	Mean tBodyGyro-arCoeff()-X,2	:-	Mean of tBodyGyro-arCoeff()-X,2
+150. 	Mean tBodyGyro-arCoeff()-X,3	:-	Mean of tBodyGyro-arCoeff()-X,3
+151. 	Mean tBodyGyro-arCoeff()-X,4	:-	Mean of tBodyGyro-arCoeff()-X,4
+152. 	Mean tBodyGyro-arCoeff()-Y,1	:-	Mean of tBodyGyro-arCoeff()-Y,1
+153. 	Mean tBodyGyro-arCoeff()-Y,2	:-	Mean of tBodyGyro-arCoeff()-Y,2
+154. 	Mean tBodyGyro-arCoeff()-Y,3	:-	Mean of tBodyGyro-arCoeff()-Y,3
+155. 	Mean tBodyGyro-arCoeff()-Y,4	:-	Mean of tBodyGyro-arCoeff()-Y,4
+156. 	Mean tBodyGyro-arCoeff()-Z,1	:-	Mean of tBodyGyro-arCoeff()-Z,1
+157. 	Mean tBodyGyro-arCoeff()-Z,2	:-	Mean of tBodyGyro-arCoeff()-Z,2
+158. 	Mean tBodyGyro-arCoeff()-Z,3	:-	Mean of tBodyGyro-arCoeff()-Z,3
+159. 	Mean tBodyGyro-arCoeff()-Z,4	:-	Mean of tBodyGyro-arCoeff()-Z,4
+160. 	Mean tBodyGyro-correlation()-X,Y	:-	Mean of tBodyGyro-correlation()-X,Y
+161. 	Mean tBodyGyro-correlation()-X,Z	:-	Mean of tBodyGyro-correlation()-X,Z
+162. 	Mean tBodyGyro-correlation()-Y,Z	:-	Mean of tBodyGyro-correlation()-Y,Z
+163. 	Mean tBodyGyroJerk-mean()-X	:-	Mean of tBodyGyroJerk-mean()-X
+164. 	Mean tBodyGyroJerk-mean()-Y	:-	Mean of tBodyGyroJerk-mean()-Y
+165. 	Mean tBodyGyroJerk-mean()-Z	:-	Mean of tBodyGyroJerk-mean()-Z
+166. 	Mean tBodyGyroJerk-std()-X	:-	Mean of tBodyGyroJerk-std()-X
+167. 	Mean tBodyGyroJerk-std()-Y	:-	Mean of tBodyGyroJerk-std()-Y
+168. 	Mean tBodyGyroJerk-std()-Z	:-	Mean of tBodyGyroJerk-std()-Z
+169. 	Mean tBodyGyroJerk-mad()-X	:-	Mean of tBodyGyroJerk-mad()-X
+170. 	Mean tBodyGyroJerk-mad()-Y	:-	Mean of tBodyGyroJerk-mad()-Y
+171. 	Mean tBodyGyroJerk-mad()-Z	:-	Mean of tBodyGyroJerk-mad()-Z
+172. 	Mean tBodyGyroJerk-max()-X	:-	Mean of tBodyGyroJerk-max()-X
+173. 	Mean tBodyGyroJerk-max()-Y	:-	Mean of tBodyGyroJerk-max()-Y
+174. 	Mean tBodyGyroJerk-max()-Z	:-	Mean of tBodyGyroJerk-max()-Z
+175. 	Mean tBodyGyroJerk-min()-X	:-	Mean of tBodyGyroJerk-min()-X
+176. 	Mean tBodyGyroJerk-min()-Y	:-	Mean of tBodyGyroJerk-min()-Y
+177. 	Mean tBodyGyroJerk-min()-Z	:-	Mean of tBodyGyroJerk-min()-Z
+178. 	Mean tBodyGyroJerk-sma()	:-	Mean of tBodyGyroJerk-sma()
+179. 	Mean tBodyGyroJerk-energy()-X	:-	Mean of tBodyGyroJerk-energy()-X
+180. 	Mean tBodyGyroJerk-energy()-Y	:-	Mean of tBodyGyroJerk-energy()-Y
+181. 	Mean tBodyGyroJerk-energy()-Z	:-	Mean of tBodyGyroJerk-energy()-Z
+182. 	Mean tBodyGyroJerk-iqr()-X	:-	Mean of tBodyGyroJerk-iqr()-X
+183. 	Mean tBodyGyroJerk-iqr()-Y	:-	Mean of tBodyGyroJerk-iqr()-Y
+184. 	Mean tBodyGyroJerk-iqr()-Z	:-	Mean of tBodyGyroJerk-iqr()-Z
+185. 	Mean tBodyGyroJerk-entropy()-X	:-	Mean of tBodyGyroJerk-entropy()-X
+186. 	Mean tBodyGyroJerk-entropy()-Y	:-	Mean of tBodyGyroJerk-entropy()-Y
+187. 	Mean tBodyGyroJerk-entropy()-Z	:-	Mean of tBodyGyroJerk-entropy()-Z
+188. 	Mean tBodyGyroJerk-arCoeff()-X,1	:-	Mean of tBodyGyroJerk-arCoeff()-X,1
+189. 	Mean tBodyGyroJerk-arCoeff()-X,2	:-	Mean of tBodyGyroJerk-arCoeff()-X,2
+190. 	Mean tBodyGyroJerk-arCoeff()-X,3	:-	Mean of tBodyGyroJerk-arCoeff()-X,3
+191. 	Mean tBodyGyroJerk-arCoeff()-X,4	:-	Mean of tBodyGyroJerk-arCoeff()-X,4
+192. 	Mean tBodyGyroJerk-arCoeff()-Y,1	:-	Mean of tBodyGyroJerk-arCoeff()-Y,1
+193. 	Mean tBodyGyroJerk-arCoeff()-Y,2	:-	Mean of tBodyGyroJerk-arCoeff()-Y,2
+194. 	Mean tBodyGyroJerk-arCoeff()-Y,3	:-	Mean of tBodyGyroJerk-arCoeff()-Y,3
+195. 	Mean tBodyGyroJerk-arCoeff()-Y,4	:-	Mean of tBodyGyroJerk-arCoeff()-Y,4
+196. 	Mean tBodyGyroJerk-arCoeff()-Z,1	:-	Mean of tBodyGyroJerk-arCoeff()-Z,1
+197. 	Mean tBodyGyroJerk-arCoeff()-Z,2	:-	Mean of tBodyGyroJerk-arCoeff()-Z,2
+198. 	Mean tBodyGyroJerk-arCoeff()-Z,3	:-	Mean of tBodyGyroJerk-arCoeff()-Z,3
+199. 	Mean tBodyGyroJerk-arCoeff()-Z,4	:-	Mean of tBodyGyroJerk-arCoeff()-Z,4
+200. 	Mean tBodyGyroJerk-correlation()-X,Y	:-	Mean of tBodyGyroJerk-correlation()-X,Y
+201. 	Mean tBodyGyroJerk-correlation()-X,Z	:-	Mean of tBodyGyroJerk-correlation()-X,Z
+202. 	Mean tBodyGyroJerk-correlation()-Y,Z	:-	Mean of tBodyGyroJerk-correlation()-Y,Z
+203. 	Mean tBodyAccMag-mean()	:-	Mean of tBodyAccMag-mean()
+204. 	Mean tBodyAccMag-std()	:-	Mean of tBodyAccMag-std()
+205. 	Mean tBodyAccMag-mad()	:-	Mean of tBodyAccMag-mad()
+206. 	Mean tBodyAccMag-max()	:-	Mean of tBodyAccMag-max()
+207. 	Mean tBodyAccMag-min()	:-	Mean of tBodyAccMag-min()
+208. 	Mean tBodyAccMag-sma()	:-	Mean of tBodyAccMag-sma()
+209. 	Mean tBodyAccMag-energy()	:-	Mean of tBodyAccMag-energy()
+210. 	Mean tBodyAccMag-iqr()	:-	Mean of tBodyAccMag-iqr()
+211. 	Mean tBodyAccMag-entropy()	:-	Mean of tBodyAccMag-entropy()
+212. 	Mean tBodyAccMag-arCoeff()1	:-	Mean of tBodyAccMag-arCoeff()1
+213. 	Mean tBodyAccMag-arCoeff()2	:-	Mean of tBodyAccMag-arCoeff()2
+214. 	Mean tBodyAccMag-arCoeff()3	:-	Mean of tBodyAccMag-arCoeff()3
+215. 	Mean tBodyAccMag-arCoeff()4	:-	Mean of tBodyAccMag-arCoeff()4
+216. 	Mean tGravityAccMag-mean()	:-	Mean of tGravityAccMag-mean()
+217. 	Mean tGravityAccMag-std()	:-	Mean of tGravityAccMag-std()
+218. 	Mean tGravityAccMag-mad()	:-	Mean of tGravityAccMag-mad()
+219. 	Mean tGravityAccMag-max()	:-	Mean of tGravityAccMag-max()
+220. 	Mean tGravityAccMag-min()	:-	Mean of tGravityAccMag-min()
+221. 	Mean tGravityAccMag-sma()	:-	Mean of tGravityAccMag-sma()
+222. 	Mean tGravityAccMag-energy()	:-	Mean of tGravityAccMag-energy()
+223. 	Mean tGravityAccMag-iqr()	:-	Mean of tGravityAccMag-iqr()
+224. 	Mean tGravityAccMag-entropy()	:-	Mean of tGravityAccMag-entropy()
+225. 	Mean tGravityAccMag-arCoeff()1	:-	Mean of tGravityAccMag-arCoeff()1
+226. 	Mean tGravityAccMag-arCoeff()2	:-	Mean of tGravityAccMag-arCoeff()2
+227. 	Mean tGravityAccMag-arCoeff()3	:-	Mean of tGravityAccMag-arCoeff()3
+228. 	Mean tGravityAccMag-arCoeff()4	:-	Mean of tGravityAccMag-arCoeff()4
+229. 	Mean tBodyAccJerkMag-mean()	:-	Mean of tBodyAccJerkMag-mean()
+230. 	Mean tBodyAccJerkMag-std()	:-	Mean of tBodyAccJerkMag-std()
+231. 	Mean tBodyAccJerkMag-mad()	:-	Mean of tBodyAccJerkMag-mad()
+232. 	Mean tBodyAccJerkMag-max()	:-	Mean of tBodyAccJerkMag-max()
+233. 	Mean tBodyAccJerkMag-min()	:-	Mean of tBodyAccJerkMag-min()
+234. 	Mean tBodyAccJerkMag-sma()	:-	Mean of tBodyAccJerkMag-sma()
+235. 	Mean tBodyAccJerkMag-energy()	:-	Mean of tBodyAccJerkMag-energy()
+236. 	Mean tBodyAccJerkMag-iqr()	:-	Mean of tBodyAccJerkMag-iqr()
+237. 	Mean tBodyAccJerkMag-entropy()	:-	Mean of tBodyAccJerkMag-entropy()
+238. 	Mean tBodyAccJerkMag-arCoeff()1	:-	Mean of tBodyAccJerkMag-arCoeff()1
+239. 	Mean tBodyAccJerkMag-arCoeff()2	:-	Mean of tBodyAccJerkMag-arCoeff()2
+240. 	Mean tBodyAccJerkMag-arCoeff()3	:-	Mean of tBodyAccJerkMag-arCoeff()3
+241. 	Mean tBodyAccJerkMag-arCoeff()4	:-	Mean of tBodyAccJerkMag-arCoeff()4
+242. 	Mean tBodyGyroMag-mean()	:-	Mean of tBodyGyroMag-mean()
+243. 	Mean tBodyGyroMag-std()	:-	Mean of tBodyGyroMag-std()
+244. 	Mean tBodyGyroMag-mad()	:-	Mean of tBodyGyroMag-mad()
+245. 	Mean tBodyGyroMag-max()	:-	Mean of tBodyGyroMag-max()
+246. 	Mean tBodyGyroMag-min()	:-	Mean of tBodyGyroMag-min()
+247. 	Mean tBodyGyroMag-sma()	:-	Mean of tBodyGyroMag-sma()
+248. 	Mean tBodyGyroMag-energy()	:-	Mean of tBodyGyroMag-energy()
+249. 	Mean tBodyGyroMag-iqr()	:-	Mean of tBodyGyroMag-iqr()
+250. 	Mean tBodyGyroMag-entropy()	:-	Mean of tBodyGyroMag-entropy()
+251. 	Mean tBodyGyroMag-arCoeff()1	:-	Mean of tBodyGyroMag-arCoeff()1
+252. 	Mean tBodyGyroMag-arCoeff()2	:-	Mean of tBodyGyroMag-arCoeff()2
+253. 	Mean tBodyGyroMag-arCoeff()3	:-	Mean of tBodyGyroMag-arCoeff()3
+254. 	Mean tBodyGyroMag-arCoeff()4	:-	Mean of tBodyGyroMag-arCoeff()4
+255. 	Mean tBodyGyroJerkMag-mean()	:-	Mean of tBodyGyroJerkMag-mean()
+256. 	Mean tBodyGyroJerkMag-std()	:-	Mean of tBodyGyroJerkMag-std()
+257. 	Mean tBodyGyroJerkMag-mad()	:-	Mean of tBodyGyroJerkMag-mad()
+258. 	Mean tBodyGyroJerkMag-max()	:-	Mean of tBodyGyroJerkMag-max()
+259. 	Mean tBodyGyroJerkMag-min()	:-	Mean of tBodyGyroJerkMag-min()
+260. 	Mean tBodyGyroJerkMag-sma()	:-	Mean of tBodyGyroJerkMag-sma()
+261. 	Mean tBodyGyroJerkMag-energy()	:-	Mean of tBodyGyroJerkMag-energy()
+262. 	Mean tBodyGyroJerkMag-iqr()	:-	Mean of tBodyGyroJerkMag-iqr()
+263. 	Mean tBodyGyroJerkMag-entropy()	:-	Mean of tBodyGyroJerkMag-entropy()
+264. 	Mean tBodyGyroJerkMag-arCoeff()1	:-	Mean of tBodyGyroJerkMag-arCoeff()1
+265. 	Mean tBodyGyroJerkMag-arCoeff()2	:-	Mean of tBodyGyroJerkMag-arCoeff()2
+266. 	Mean tBodyGyroJerkMag-arCoeff()3	:-	Mean of tBodyGyroJerkMag-arCoeff()3
+267. 	Mean tBodyGyroJerkMag-arCoeff()4	:-	Mean of tBodyGyroJerkMag-arCoeff()4
+268. 	Mean fBodyAcc-mean()-X	:-	Mean of fBodyAcc-mean()-X
+269. 	Mean fBodyAcc-mean()-Y	:-	Mean of fBodyAcc-mean()-Y
+270. 	Mean fBodyAcc-mean()-Z	:-	Mean of fBodyAcc-mean()-Z
+271. 	Mean fBodyAcc-std()-X	:-	Mean of fBodyAcc-std()-X
+272. 	Mean fBodyAcc-std()-Y	:-	Mean of fBodyAcc-std()-Y
+273. 	Mean fBodyAcc-std()-Z	:-	Mean of fBodyAcc-std()-Z
+274. 	Mean fBodyAcc-mad()-X	:-	Mean of fBodyAcc-mad()-X
+275. 	Mean fBodyAcc-mad()-Y	:-	Mean of fBodyAcc-mad()-Y
+276. 	Mean fBodyAcc-mad()-Z	:-	Mean of fBodyAcc-mad()-Z
+277. 	Mean fBodyAcc-max()-X	:-	Mean of fBodyAcc-max()-X
+278. 	Mean fBodyAcc-max()-Y	:-	Mean of fBodyAcc-max()-Y
+279. 	Mean fBodyAcc-max()-Z	:-	Mean of fBodyAcc-max()-Z
+280. 	Mean fBodyAcc-min()-X	:-	Mean of fBodyAcc-min()-X
+281. 	Mean fBodyAcc-min()-Y	:-	Mean of fBodyAcc-min()-Y
+282. 	Mean fBodyAcc-min()-Z	:-	Mean of fBodyAcc-min()-Z
+283. 	Mean fBodyAcc-sma()	:-	Mean of fBodyAcc-sma()
+284. 	Mean fBodyAcc-energy()-X	:-	Mean of fBodyAcc-energy()-X
+285. 	Mean fBodyAcc-energy()-Y	:-	Mean of fBodyAcc-energy()-Y
+286. 	Mean fBodyAcc-energy()-Z	:-	Mean of fBodyAcc-energy()-Z
+287. 	Mean fBodyAcc-iqr()-X	:-	Mean of fBodyAcc-iqr()-X
+288. 	Mean fBodyAcc-iqr()-Y	:-	Mean of fBodyAcc-iqr()-Y
+289. 	Mean fBodyAcc-iqr()-Z	:-	Mean of fBodyAcc-iqr()-Z
+290. 	Mean fBodyAcc-entropy()-X	:-	Mean of fBodyAcc-entropy()-X
+291. 	Mean fBodyAcc-entropy()-Y	:-	Mean of fBodyAcc-entropy()-Y
+292. 	Mean fBodyAcc-entropy()-Z	:-	Mean of fBodyAcc-entropy()-Z
+293. 	Mean fBodyAcc-maxInds-X	:-	Mean of fBodyAcc-maxInds-X
+294. 	Mean fBodyAcc-maxInds-Y	:-	Mean of fBodyAcc-maxInds-Y
+295. 	Mean fBodyAcc-maxInds-Z	:-	Mean of fBodyAcc-maxInds-Z
+296. 	Mean fBodyAcc-meanFreq()-X	:-	Mean of fBodyAcc-meanFreq()-X
+297. 	Mean fBodyAcc-meanFreq()-Y	:-	Mean of fBodyAcc-meanFreq()-Y
+298. 	Mean fBodyAcc-meanFreq()-Z	:-	Mean of fBodyAcc-meanFreq()-Z
+299. 	Mean fBodyAcc-skewness()-X	:-	Mean of fBodyAcc-skewness()-X
+300. 	Mean fBodyAcc-kurtosis()-X	:-	Mean of fBodyAcc-kurtosis()-X
+301. 	Mean fBodyAcc-skewness()-Y	:-	Mean of fBodyAcc-skewness()-Y
+302. 	Mean fBodyAcc-kurtosis()-Y	:-	Mean of fBodyAcc-kurtosis()-Y
+303. 	Mean fBodyAcc-skewness()-Z	:-	Mean of fBodyAcc-skewness()-Z
+304. 	Mean fBodyAcc-kurtosis()-Z	:-	Mean of fBodyAcc-kurtosis()-Z
+305. 	Mean fBodyAcc-bandsEnergy()-1,8	:-	Mean of fBodyAcc-bandsEnergy()-1,8
+306. 	Mean fBodyAcc-bandsEnergy()-9,16	:-	Mean of fBodyAcc-bandsEnergy()-9,16
+307. 	Mean fBodyAcc-bandsEnergy()-17,24	:-	Mean of fBodyAcc-bandsEnergy()-17,24
+308. 	Mean fBodyAcc-bandsEnergy()-25,32	:-	Mean of fBodyAcc-bandsEnergy()-25,32
+309. 	Mean fBodyAcc-bandsEnergy()-33,40	:-	Mean of fBodyAcc-bandsEnergy()-33,40
+310. 	Mean fBodyAcc-bandsEnergy()-41,48	:-	Mean of fBodyAcc-bandsEnergy()-41,48
+311. 	Mean fBodyAcc-bandsEnergy()-49,56	:-	Mean of fBodyAcc-bandsEnergy()-49,56
+312. 	Mean fBodyAcc-bandsEnergy()-57,64	:-	Mean of fBodyAcc-bandsEnergy()-57,64
+313. 	Mean fBodyAcc-bandsEnergy()-1,16	:-	Mean of fBodyAcc-bandsEnergy()-1,16
+314. 	Mean fBodyAcc-bandsEnergy()-17,32	:-	Mean of fBodyAcc-bandsEnergy()-17,32
+315. 	Mean fBodyAcc-bandsEnergy()-33,48	:-	Mean of fBodyAcc-bandsEnergy()-33,48
+316. 	Mean fBodyAcc-bandsEnergy()-49,64	:-	Mean of fBodyAcc-bandsEnergy()-49,64
+317. 	Mean fBodyAcc-bandsEnergy()-1,24	:-	Mean of fBodyAcc-bandsEnergy()-1,24
+318. 	Mean fBodyAcc-bandsEnergy()-25,48	:-	Mean of fBodyAcc-bandsEnergy()-25,48
+319. 	Mean fBodyAcc-bandsEnergy()-1,8.1	:-	Mean of fBodyAcc-bandsEnergy()-1,8.1
+320. 	Mean fBodyAcc-bandsEnergy()-9,16.1	:-	Mean of fBodyAcc-bandsEnergy()-9,16.1
+321. 	Mean fBodyAcc-bandsEnergy()-17,24.1	:-	Mean of fBodyAcc-bandsEnergy()-17,24.1
+322. 	Mean fBodyAcc-bandsEnergy()-25,32.1	:-	Mean of fBodyAcc-bandsEnergy()-25,32.1
+323. 	Mean fBodyAcc-bandsEnergy()-33,40.1	:-	Mean of fBodyAcc-bandsEnergy()-33,40.1
+324. 	Mean fBodyAcc-bandsEnergy()-41,48.1	:-	Mean of fBodyAcc-bandsEnergy()-41,48.1
+325. 	Mean fBodyAcc-bandsEnergy()-49,56.1	:-	Mean of fBodyAcc-bandsEnergy()-49,56.1
+326. 	Mean fBodyAcc-bandsEnergy()-57,64.1	:-	Mean of fBodyAcc-bandsEnergy()-57,64.1
+327. 	Mean fBodyAcc-bandsEnergy()-1,16.1	:-	Mean of fBodyAcc-bandsEnergy()-1,16.1
+328. 	Mean fBodyAcc-bandsEnergy()-17,32.1	:-	Mean of fBodyAcc-bandsEnergy()-17,32.1
+329. 	Mean fBodyAcc-bandsEnergy()-33,48.1	:-	Mean of fBodyAcc-bandsEnergy()-33,48.1
+330. 	Mean fBodyAcc-bandsEnergy()-49,64.1	:-	Mean of fBodyAcc-bandsEnergy()-49,64.1
+331. 	Mean fBodyAcc-bandsEnergy()-1,24.1	:-	Mean of fBodyAcc-bandsEnergy()-1,24.1
+332. 	Mean fBodyAcc-bandsEnergy()-25,48.1	:-	Mean of fBodyAcc-bandsEnergy()-25,48.1
+333. 	Mean fBodyAcc-bandsEnergy()-1,8.2	:-	Mean of fBodyAcc-bandsEnergy()-1,8.2
+334. 	Mean fBodyAcc-bandsEnergy()-9,16.2	:-	Mean of fBodyAcc-bandsEnergy()-9,16.2
+335. 	Mean fBodyAcc-bandsEnergy()-17,24.2	:-	Mean of fBodyAcc-bandsEnergy()-17,24.2
+336. 	Mean fBodyAcc-bandsEnergy()-25,32.2	:-	Mean of fBodyAcc-bandsEnergy()-25,32.2
+337. 	Mean fBodyAcc-bandsEnergy()-33,40.2	:-	Mean of fBodyAcc-bandsEnergy()-33,40.2
+338. 	Mean fBodyAcc-bandsEnergy()-41,48.2	:-	Mean of fBodyAcc-bandsEnergy()-41,48.2
+339. 	Mean fBodyAcc-bandsEnergy()-49,56.2	:-	Mean of fBodyAcc-bandsEnergy()-49,56.2
+340. 	Mean fBodyAcc-bandsEnergy()-57,64.2	:-	Mean of fBodyAcc-bandsEnergy()-57,64.2
+341. 	Mean fBodyAcc-bandsEnergy()-1,16.2	:-	Mean of fBodyAcc-bandsEnergy()-1,16.2
+342. 	Mean fBodyAcc-bandsEnergy()-17,32.2	:-	Mean of fBodyAcc-bandsEnergy()-17,32.2
+343. 	Mean fBodyAcc-bandsEnergy()-33,48.2	:-	Mean of fBodyAcc-bandsEnergy()-33,48.2
+344. 	Mean fBodyAcc-bandsEnergy()-49,64.2	:-	Mean of fBodyAcc-bandsEnergy()-49,64.2
+345. 	Mean fBodyAcc-bandsEnergy()-1,24.2	:-	Mean of fBodyAcc-bandsEnergy()-1,24.2
+346. 	Mean fBodyAcc-bandsEnergy()-25,48.2	:-	Mean of fBodyAcc-bandsEnergy()-25,48.2
+347. 	Mean fBodyAccJerk-mean()-X	:-	Mean of fBodyAccJerk-mean()-X
+348. 	Mean fBodyAccJerk-mean()-Y	:-	Mean of fBodyAccJerk-mean()-Y
+349. 	Mean fBodyAccJerk-mean()-Z	:-	Mean of fBodyAccJerk-mean()-Z
+350. 	Mean fBodyAccJerk-std()-X	:-	Mean of fBodyAccJerk-std()-X
+351. 	Mean fBodyAccJerk-std()-Y	:-	Mean of fBodyAccJerk-std()-Y
+352. 	Mean fBodyAccJerk-std()-Z	:-	Mean of fBodyAccJerk-std()-Z
+353. 	Mean fBodyAccJerk-mad()-X	:-	Mean of fBodyAccJerk-mad()-X
+354. 	Mean fBodyAccJerk-mad()-Y	:-	Mean of fBodyAccJerk-mad()-Y
+355. 	Mean fBodyAccJerk-mad()-Z	:-	Mean of fBodyAccJerk-mad()-Z
+356. 	Mean fBodyAccJerk-max()-X	:-	Mean of fBodyAccJerk-max()-X
+357. 	Mean fBodyAccJerk-max()-Y	:-	Mean of fBodyAccJerk-max()-Y
+358. 	Mean fBodyAccJerk-max()-Z	:-	Mean of fBodyAccJerk-max()-Z
+359. 	Mean fBodyAccJerk-min()-X	:-	Mean of fBodyAccJerk-min()-X
+360. 	Mean fBodyAccJerk-min()-Y	:-	Mean of fBodyAccJerk-min()-Y
+361. 	Mean fBodyAccJerk-min()-Z	:-	Mean of fBodyAccJerk-min()-Z
+362. 	Mean fBodyAccJerk-sma()	:-	Mean of fBodyAccJerk-sma()
+363. 	Mean fBodyAccJerk-energy()-X	:-	Mean of fBodyAccJerk-energy()-X
+364. 	Mean fBodyAccJerk-energy()-Y	:-	Mean of fBodyAccJerk-energy()-Y
+365. 	Mean fBodyAccJerk-energy()-Z	:-	Mean of fBodyAccJerk-energy()-Z
+366. 	Mean fBodyAccJerk-iqr()-X	:-	Mean of fBodyAccJerk-iqr()-X
+367. 	Mean fBodyAccJerk-iqr()-Y	:-	Mean of fBodyAccJerk-iqr()-Y
+368. 	Mean fBodyAccJerk-iqr()-Z	:-	Mean of fBodyAccJerk-iqr()-Z
+369. 	Mean fBodyAccJerk-entropy()-X	:-	Mean of fBodyAccJerk-entropy()-X
+370. 	Mean fBodyAccJerk-entropy()-Y	:-	Mean of fBodyAccJerk-entropy()-Y
+371. 	Mean fBodyAccJerk-entropy()-Z	:-	Mean of fBodyAccJerk-entropy()-Z
+372. 	Mean fBodyAccJerk-maxInds-X	:-	Mean of fBodyAccJerk-maxInds-X
+373. 	Mean fBodyAccJerk-maxInds-Y	:-	Mean of fBodyAccJerk-maxInds-Y
+374. 	Mean fBodyAccJerk-maxInds-Z	:-	Mean of fBodyAccJerk-maxInds-Z
+375. 	Mean fBodyAccJerk-meanFreq()-X	:-	Mean of fBodyAccJerk-meanFreq()-X
+376. 	Mean fBodyAccJerk-meanFreq()-Y	:-	Mean of fBodyAccJerk-meanFreq()-Y
+377. 	Mean fBodyAccJerk-meanFreq()-Z	:-	Mean of fBodyAccJerk-meanFreq()-Z
+378. 	Mean fBodyAccJerk-skewness()-X	:-	Mean of fBodyAccJerk-skewness()-X
+379. 	Mean fBodyAccJerk-kurtosis()-X	:-	Mean of fBodyAccJerk-kurtosis()-X
+380. 	Mean fBodyAccJerk-skewness()-Y	:-	Mean of fBodyAccJerk-skewness()-Y
+381. 	Mean fBodyAccJerk-kurtosis()-Y	:-	Mean of fBodyAccJerk-kurtosis()-Y
+382. 	Mean fBodyAccJerk-skewness()-Z	:-	Mean of fBodyAccJerk-skewness()-Z
+383. 	Mean fBodyAccJerk-kurtosis()-Z	:-	Mean of fBodyAccJerk-kurtosis()-Z
+384. 	Mean fBodyAccJerk-bandsEnergy()-1,8	:-	Mean of fBodyAccJerk-bandsEnergy()-1,8
+385. 	Mean fBodyAccJerk-bandsEnergy()-9,16	:-	Mean of fBodyAccJerk-bandsEnergy()-9,16
+386. 	Mean fBodyAccJerk-bandsEnergy()-17,24	:-	Mean of fBodyAccJerk-bandsEnergy()-17,24
+387. 	Mean fBodyAccJerk-bandsEnergy()-25,32	:-	Mean of fBodyAccJerk-bandsEnergy()-25,32
+388. 	Mean fBodyAccJerk-bandsEnergy()-33,40	:-	Mean of fBodyAccJerk-bandsEnergy()-33,40
+389. 	Mean fBodyAccJerk-bandsEnergy()-41,48	:-	Mean of fBodyAccJerk-bandsEnergy()-41,48
+390. 	Mean fBodyAccJerk-bandsEnergy()-49,56	:-	Mean of fBodyAccJerk-bandsEnergy()-49,56
+391. 	Mean fBodyAccJerk-bandsEnergy()-57,64	:-	Mean of fBodyAccJerk-bandsEnergy()-57,64
+392. 	Mean fBodyAccJerk-bandsEnergy()-1,16	:-	Mean of fBodyAccJerk-bandsEnergy()-1,16
+393. 	Mean fBodyAccJerk-bandsEnergy()-17,32	:-	Mean of fBodyAccJerk-bandsEnergy()-17,32
+394. 	Mean fBodyAccJerk-bandsEnergy()-33,48	:-	Mean of fBodyAccJerk-bandsEnergy()-33,48
+395. 	Mean fBodyAccJerk-bandsEnergy()-49,64	:-	Mean of fBodyAccJerk-bandsEnergy()-49,64
+396. 	Mean fBodyAccJerk-bandsEnergy()-1,24	:-	Mean of fBodyAccJerk-bandsEnergy()-1,24
+397. 	Mean fBodyAccJerk-bandsEnergy()-25,48	:-	Mean of fBodyAccJerk-bandsEnergy()-25,48
+398. 	Mean fBodyAccJerk-bandsEnergy()-1,8.1	:-	Mean of fBodyAccJerk-bandsEnergy()-1,8.1
+399. 	Mean fBodyAccJerk-bandsEnergy()-9,16.1	:-	Mean of fBodyAccJerk-bandsEnergy()-9,16.1
+400. 	Mean fBodyAccJerk-bandsEnergy()-17,24.1	:-	Mean of fBodyAccJerk-bandsEnergy()-17,24.1
+401. 	Mean fBodyAccJerk-bandsEnergy()-25,32.1	:-	Mean of fBodyAccJerk-bandsEnergy()-25,32.1
+402. 	Mean fBodyAccJerk-bandsEnergy()-33,40.1	:-	Mean of fBodyAccJerk-bandsEnergy()-33,40.1
+403. 	Mean fBodyAccJerk-bandsEnergy()-41,48.1	:-	Mean of fBodyAccJerk-bandsEnergy()-41,48.1
+404. 	Mean fBodyAccJerk-bandsEnergy()-49,56.1	:-	Mean of fBodyAccJerk-bandsEnergy()-49,56.1
+405. 	Mean fBodyAccJerk-bandsEnergy()-57,64.1	:-	Mean of fBodyAccJerk-bandsEnergy()-57,64.1
+406. 	Mean fBodyAccJerk-bandsEnergy()-1,16.1	:-	Mean of fBodyAccJerk-bandsEnergy()-1,16.1
+407. 	Mean fBodyAccJerk-bandsEnergy()-17,32.1	:-	Mean of fBodyAccJerk-bandsEnergy()-17,32.1
+408. 	Mean fBodyAccJerk-bandsEnergy()-33,48.1	:-	Mean of fBodyAccJerk-bandsEnergy()-33,48.1
+409. 	Mean fBodyAccJerk-bandsEnergy()-49,64.1	:-	Mean of fBodyAccJerk-bandsEnergy()-49,64.1
+410. 	Mean fBodyAccJerk-bandsEnergy()-1,24.1	:-	Mean of fBodyAccJerk-bandsEnergy()-1,24.1
+411. 	Mean fBodyAccJerk-bandsEnergy()-25,48.1	:-	Mean of fBodyAccJerk-bandsEnergy()-25,48.1
+412. 	Mean fBodyAccJerk-bandsEnergy()-1,8.2	:-	Mean of fBodyAccJerk-bandsEnergy()-1,8.2
+413. 	Mean fBodyAccJerk-bandsEnergy()-9,16.2	:-	Mean of fBodyAccJerk-bandsEnergy()-9,16.2
+414. 	Mean fBodyAccJerk-bandsEnergy()-17,24.2	:-	Mean of fBodyAccJerk-bandsEnergy()-17,24.2
+415. 	Mean fBodyAccJerk-bandsEnergy()-25,32.2	:-	Mean of fBodyAccJerk-bandsEnergy()-25,32.2
+416. 	Mean fBodyAccJerk-bandsEnergy()-33,40.2	:-	Mean of fBodyAccJerk-bandsEnergy()-33,40.2
+417. 	Mean fBodyAccJerk-bandsEnergy()-41,48.2	:-	Mean of fBodyAccJerk-bandsEnergy()-41,48.2
+418. 	Mean fBodyAccJerk-bandsEnergy()-49,56.2	:-	Mean of fBodyAccJerk-bandsEnergy()-49,56.2
+419. 	Mean fBodyAccJerk-bandsEnergy()-57,64.2	:-	Mean of fBodyAccJerk-bandsEnergy()-57,64.2
+420. 	Mean fBodyAccJerk-bandsEnergy()-1,16.2	:-	Mean of fBodyAccJerk-bandsEnergy()-1,16.2
+421. 	Mean fBodyAccJerk-bandsEnergy()-17,32.2	:-	Mean of fBodyAccJerk-bandsEnergy()-17,32.2
+422. 	Mean fBodyAccJerk-bandsEnergy()-33,48.2	:-	Mean of fBodyAccJerk-bandsEnergy()-33,48.2
+423. 	Mean fBodyAccJerk-bandsEnergy()-49,64.2	:-	Mean of fBodyAccJerk-bandsEnergy()-49,64.2
+424. 	Mean fBodyAccJerk-bandsEnergy()-1,24.2	:-	Mean of fBodyAccJerk-bandsEnergy()-1,24.2
+425. 	Mean fBodyAccJerk-bandsEnergy()-25,48.2	:-	Mean of fBodyAccJerk-bandsEnergy()-25,48.2
+426. 	Mean fBodyGyro-mean()-X	:-	Mean of fBodyGyro-mean()-X
+427. 	Mean fBodyGyro-mean()-Y	:-	Mean of fBodyGyro-mean()-Y
+428. 	Mean fBodyGyro-mean()-Z	:-	Mean of fBodyGyro-mean()-Z
+429. 	Mean fBodyGyro-std()-X	:-	Mean of fBodyGyro-std()-X
+430. 	Mean fBodyGyro-std()-Y	:-	Mean of fBodyGyro-std()-Y
+431. 	Mean fBodyGyro-std()-Z	:-	Mean of fBodyGyro-std()-Z
+432. 	Mean fBodyGyro-mad()-X	:-	Mean of fBodyGyro-mad()-X
+433. 	Mean fBodyGyro-mad()-Y	:-	Mean of fBodyGyro-mad()-Y
+434. 	Mean fBodyGyro-mad()-Z	:-	Mean of fBodyGyro-mad()-Z
+435. 	Mean fBodyGyro-max()-X	:-	Mean of fBodyGyro-max()-X
+436. 	Mean fBodyGyro-max()-Y	:-	Mean of fBodyGyro-max()-Y
+437. 	Mean fBodyGyro-max()-Z	:-	Mean of fBodyGyro-max()-Z
+438. 	Mean fBodyGyro-min()-X	:-	Mean of fBodyGyro-min()-X
+439. 	Mean fBodyGyro-min()-Y	:-	Mean of fBodyGyro-min()-Y
+440. 	Mean fBodyGyro-min()-Z	:-	Mean of fBodyGyro-min()-Z
+441. 	Mean fBodyGyro-sma()	:-	Mean of fBodyGyro-sma()
+442. 	Mean fBodyGyro-energy()-X	:-	Mean of fBodyGyro-energy()-X
+443. 	Mean fBodyGyro-energy()-Y	:-	Mean of fBodyGyro-energy()-Y
+444. 	Mean fBodyGyro-energy()-Z	:-	Mean of fBodyGyro-energy()-Z
+445. 	Mean fBodyGyro-iqr()-X	:-	Mean of fBodyGyro-iqr()-X
+446. 	Mean fBodyGyro-iqr()-Y	:-	Mean of fBodyGyro-iqr()-Y
+447. 	Mean fBodyGyro-iqr()-Z	:-	Mean of fBodyGyro-iqr()-Z
+448. 	Mean fBodyGyro-entropy()-X	:-	Mean of fBodyGyro-entropy()-X
+449. 	Mean fBodyGyro-entropy()-Y	:-	Mean of fBodyGyro-entropy()-Y
+450. 	Mean fBodyGyro-entropy()-Z	:-	Mean of fBodyGyro-entropy()-Z
+451. 	Mean fBodyGyro-maxInds-X	:-	Mean of fBodyGyro-maxInds-X
+452. 	Mean fBodyGyro-maxInds-Y	:-	Mean of fBodyGyro-maxInds-Y
+453. 	Mean fBodyGyro-maxInds-Z	:-	Mean of fBodyGyro-maxInds-Z
+454. 	Mean fBodyGyro-meanFreq()-X	:-	Mean of fBodyGyro-meanFreq()-X
+455. 	Mean fBodyGyro-meanFreq()-Y	:-	Mean of fBodyGyro-meanFreq()-Y
+456. 	Mean fBodyGyro-meanFreq()-Z	:-	Mean of fBodyGyro-meanFreq()-Z
+457. 	Mean fBodyGyro-skewness()-X	:-	Mean of fBodyGyro-skewness()-X
+458. 	Mean fBodyGyro-kurtosis()-X	:-	Mean of fBodyGyro-kurtosis()-X
+459. 	Mean fBodyGyro-skewness()-Y	:-	Mean of fBodyGyro-skewness()-Y
+460. 	Mean fBodyGyro-kurtosis()-Y	:-	Mean of fBodyGyro-kurtosis()-Y
+461. 	Mean fBodyGyro-skewness()-Z	:-	Mean of fBodyGyro-skewness()-Z
+462. 	Mean fBodyGyro-kurtosis()-Z	:-	Mean of fBodyGyro-kurtosis()-Z
+463. 	Mean fBodyGyro-bandsEnergy()-1,8	:-	Mean of fBodyGyro-bandsEnergy()-1,8
+464. 	Mean fBodyGyro-bandsEnergy()-9,16	:-	Mean of fBodyGyro-bandsEnergy()-9,16
+465. 	Mean fBodyGyro-bandsEnergy()-17,24	:-	Mean of fBodyGyro-bandsEnergy()-17,24
+466. 	Mean fBodyGyro-bandsEnergy()-25,32	:-	Mean of fBodyGyro-bandsEnergy()-25,32
+467. 	Mean fBodyGyro-bandsEnergy()-33,40	:-	Mean of fBodyGyro-bandsEnergy()-33,40
+468. 	Mean fBodyGyro-bandsEnergy()-41,48	:-	Mean of fBodyGyro-bandsEnergy()-41,48
+469. 	Mean fBodyGyro-bandsEnergy()-49,56	:-	Mean of fBodyGyro-bandsEnergy()-49,56
+470. 	Mean fBodyGyro-bandsEnergy()-57,64	:-	Mean of fBodyGyro-bandsEnergy()-57,64
+471. 	Mean fBodyGyro-bandsEnergy()-1,16	:-	Mean of fBodyGyro-bandsEnergy()-1,16
+472. 	Mean fBodyGyro-bandsEnergy()-17,32	:-	Mean of fBodyGyro-bandsEnergy()-17,32
+473. 	Mean fBodyGyro-bandsEnergy()-33,48	:-	Mean of fBodyGyro-bandsEnergy()-33,48
+474. 	Mean fBodyGyro-bandsEnergy()-49,64	:-	Mean of fBodyGyro-bandsEnergy()-49,64
+475. 	Mean fBodyGyro-bandsEnergy()-1,24	:-	Mean of fBodyGyro-bandsEnergy()-1,24
+476. 	Mean fBodyGyro-bandsEnergy()-25,48	:-	Mean of fBodyGyro-bandsEnergy()-25,48
+477. 	Mean fBodyGyro-bandsEnergy()-1,8.1	:-	Mean of fBodyGyro-bandsEnergy()-1,8.1
+478. 	Mean fBodyGyro-bandsEnergy()-9,16.1	:-	Mean of fBodyGyro-bandsEnergy()-9,16.1
+479. 	Mean fBodyGyro-bandsEnergy()-17,24.1	:-	Mean of fBodyGyro-bandsEnergy()-17,24.1
+480. 	Mean fBodyGyro-bandsEnergy()-25,32.1	:-	Mean of fBodyGyro-bandsEnergy()-25,32.1
+481. 	Mean fBodyGyro-bandsEnergy()-33,40.1	:-	Mean of fBodyGyro-bandsEnergy()-33,40.1
+482. 	Mean fBodyGyro-bandsEnergy()-41,48.1	:-	Mean of fBodyGyro-bandsEnergy()-41,48.1
+483. 	Mean fBodyGyro-bandsEnergy()-49,56.1	:-	Mean of fBodyGyro-bandsEnergy()-49,56.1
+484. 	Mean fBodyGyro-bandsEnergy()-57,64.1	:-	Mean of fBodyGyro-bandsEnergy()-57,64.1
+485. 	Mean fBodyGyro-bandsEnergy()-1,16.1	:-	Mean of fBodyGyro-bandsEnergy()-1,16.1
+486. 	Mean fBodyGyro-bandsEnergy()-17,32.1	:-	Mean of fBodyGyro-bandsEnergy()-17,32.1
+487. 	Mean fBodyGyro-bandsEnergy()-33,48.1	:-	Mean of fBodyGyro-bandsEnergy()-33,48.1
+488. 	Mean fBodyGyro-bandsEnergy()-49,64.1	:-	Mean of fBodyGyro-bandsEnergy()-49,64.1
+489. 	Mean fBodyGyro-bandsEnergy()-1,24.1	:-	Mean of fBodyGyro-bandsEnergy()-1,24.1
+490. 	Mean fBodyGyro-bandsEnergy()-25,48.1	:-	Mean of fBodyGyro-bandsEnergy()-25,48.1
+491. 	Mean fBodyGyro-bandsEnergy()-1,8.2	:-	Mean of fBodyGyro-bandsEnergy()-1,8.2
+492. 	Mean fBodyGyro-bandsEnergy()-9,16.2	:-	Mean of fBodyGyro-bandsEnergy()-9,16.2
+493. 	Mean fBodyGyro-bandsEnergy()-17,24.2	:-	Mean of fBodyGyro-bandsEnergy()-17,24.2
+494. 	Mean fBodyGyro-bandsEnergy()-25,32.2	:-	Mean of fBodyGyro-bandsEnergy()-25,32.2
+495. 	Mean fBodyGyro-bandsEnergy()-33,40.2	:-	Mean of fBodyGyro-bandsEnergy()-33,40.2
+496. 	Mean fBodyGyro-bandsEnergy()-41,48.2	:-	Mean of fBodyGyro-bandsEnergy()-41,48.2
+497. 	Mean fBodyGyro-bandsEnergy()-49,56.2	:-	Mean of fBodyGyro-bandsEnergy()-49,56.2
+498. 	Mean fBodyGyro-bandsEnergy()-57,64.2	:-	Mean of fBodyGyro-bandsEnergy()-57,64.2
+499. 	Mean fBodyGyro-bandsEnergy()-1,16.2	:-	Mean of fBodyGyro-bandsEnergy()-1,16.2
+500. 	Mean fBodyGyro-bandsEnergy()-17,32.2	:-	Mean of fBodyGyro-bandsEnergy()-17,32.2
+501. 	Mean fBodyGyro-bandsEnergy()-33,48.2	:-	Mean of fBodyGyro-bandsEnergy()-33,48.2
+502. 	Mean fBodyGyro-bandsEnergy()-49,64.2	:-	Mean of fBodyGyro-bandsEnergy()-49,64.2
+503. 	Mean fBodyGyro-bandsEnergy()-1,24.2	:-	Mean of fBodyGyro-bandsEnergy()-1,24.2
+504. 	Mean fBodyGyro-bandsEnergy()-25,48.2	:-	Mean of fBodyGyro-bandsEnergy()-25,48.2
+505. 	Mean fBodyAccMag-mean()	:-	Mean of fBodyAccMag-mean()
+506. 	Mean fBodyAccMag-std()	:-	Mean of fBodyAccMag-std()
+507. 	Mean fBodyAccMag-mad()	:-	Mean of fBodyAccMag-mad()
+508. 	Mean fBodyAccMag-max()	:-	Mean of fBodyAccMag-max()
+509. 	Mean fBodyAccMag-min()	:-	Mean of fBodyAccMag-min()
+510. 	Mean fBodyAccMag-sma()	:-	Mean of fBodyAccMag-sma()
+511. 	Mean fBodyAccMag-energy()	:-	Mean of fBodyAccMag-energy()
+512. 	Mean fBodyAccMag-iqr()	:-	Mean of fBodyAccMag-iqr()
+513. 	Mean fBodyAccMag-entropy()	:-	Mean of fBodyAccMag-entropy()
+514. 	Mean fBodyAccMag-maxInds	:-	Mean of fBodyAccMag-maxInds
+515. 	Mean fBodyAccMag-meanFreq()	:-	Mean of fBodyAccMag-meanFreq()
+516. 	Mean fBodyAccMag-skewness()	:-	Mean of fBodyAccMag-skewness()
+517. 	Mean fBodyAccMag-kurtosis()	:-	Mean of fBodyAccMag-kurtosis()
+518. 	Mean fBodyBodyAccJerkMag-mean()	:-	Mean of fBodyBodyAccJerkMag-mean()
+519. 	Mean fBodyBodyAccJerkMag-std()	:-	Mean of fBodyBodyAccJerkMag-std()
+520. 	Mean fBodyBodyAccJerkMag-mad()	:-	Mean of fBodyBodyAccJerkMag-mad()
+521. 	Mean fBodyBodyAccJerkMag-max()	:-	Mean of fBodyBodyAccJerkMag-max()
+522. 	Mean fBodyBodyAccJerkMag-min()	:-	Mean of fBodyBodyAccJerkMag-min()
+523. 	Mean fBodyBodyAccJerkMag-sma()	:-	Mean of fBodyBodyAccJerkMag-sma()
+524. 	Mean fBodyBodyAccJerkMag-energy()	:-	Mean of fBodyBodyAccJerkMag-energy()
+525. 	Mean fBodyBodyAccJerkMag-iqr()	:-	Mean of fBodyBodyAccJerkMag-iqr()
+526. 	Mean fBodyBodyAccJerkMag-entropy()	:-	Mean of fBodyBodyAccJerkMag-entropy()
+527. 	Mean fBodyBodyAccJerkMag-maxInds	:-	Mean of fBodyBodyAccJerkMag-maxInds
+528. 	Mean fBodyBodyAccJerkMag-meanFreq()	:-	Mean of fBodyBodyAccJerkMag-meanFreq()
+529. 	Mean fBodyBodyAccJerkMag-skewness()	:-	Mean of fBodyBodyAccJerkMag-skewness()
+530. 	Mean fBodyBodyAccJerkMag-kurtosis()	:-	Mean of fBodyBodyAccJerkMag-kurtosis()
+531. 	Mean fBodyBodyGyroMag-mean()	:-	Mean of fBodyBodyGyroMag-mean()
+532. 	Mean fBodyBodyGyroMag-std()	:-	Mean of fBodyBodyGyroMag-std()
+533. 	Mean fBodyBodyGyroMag-mad()	:-	Mean of fBodyBodyGyroMag-mad()
+534. 	Mean fBodyBodyGyroMag-max()	:-	Mean of fBodyBodyGyroMag-max()
+535. 	Mean fBodyBodyGyroMag-min()	:-	Mean of fBodyBodyGyroMag-min()
+536. 	Mean fBodyBodyGyroMag-sma()	:-	Mean of fBodyBodyGyroMag-sma()
+537. 	Mean fBodyBodyGyroMag-energy()	:-	Mean of fBodyBodyGyroMag-energy()
+538. 	Mean fBodyBodyGyroMag-iqr()	:-	Mean of fBodyBodyGyroMag-iqr()
+539. 	Mean fBodyBodyGyroMag-entropy()	:-	Mean of fBodyBodyGyroMag-entropy()
+540. 	Mean fBodyBodyGyroMag-maxInds	:-	Mean of fBodyBodyGyroMag-maxInds
+541. 	Mean fBodyBodyGyroMag-meanFreq()	:-	Mean of fBodyBodyGyroMag-meanFreq()
+542. 	Mean fBodyBodyGyroMag-skewness()	:-	Mean of fBodyBodyGyroMag-skewness()
+543. 	Mean fBodyBodyGyroMag-kurtosis()	:-	Mean of fBodyBodyGyroMag-kurtosis()
+544. 	Mean fBodyBodyGyroJerkMag-mean()	:-	Mean of fBodyBodyGyroJerkMag-mean()
+545. 	Mean fBodyBodyGyroJerkMag-std()	:-	Mean of fBodyBodyGyroJerkMag-std()
+546. 	Mean fBodyBodyGyroJerkMag-mad()	:-	Mean of fBodyBodyGyroJerkMag-mad()
+547. 	Mean fBodyBodyGyroJerkMag-max()	:-	Mean of fBodyBodyGyroJerkMag-max()
+548. 	Mean fBodyBodyGyroJerkMag-min()	:-	Mean of fBodyBodyGyroJerkMag-min()
+549. 	Mean fBodyBodyGyroJerkMag-sma()	:-	Mean of fBodyBodyGyroJerkMag-sma()
+550. 	Mean fBodyBodyGyroJerkMag-energy()	:-	Mean of fBodyBodyGyroJerkMag-energy()
+551. 	Mean fBodyBodyGyroJerkMag-iqr()	:-	Mean of fBodyBodyGyroJerkMag-iqr()
+552. 	Mean fBodyBodyGyroJerkMag-entropy()	:-	Mean of fBodyBodyGyroJerkMag-entropy()
+553. 	Mean fBodyBodyGyroJerkMag-maxInds	:-	Mean of fBodyBodyGyroJerkMag-maxInds
+554. 	Mean fBodyBodyGyroJerkMag-meanFreq()	:-	Mean of fBodyBodyGyroJerkMag-meanFreq()
+555. 	Mean fBodyBodyGyroJerkMag-skewness()	:-	Mean of fBodyBodyGyroJerkMag-skewness()
+556. 	Mean fBodyBodyGyroJerkMag-kurtosis()	:-	Mean of fBodyBodyGyroJerkMag-kurtosis()
+557. 	Mean angle(tBodyAccMean,gravity)	:-	Mean of angle(tBodyAccMean,gravity)
+558. 	Mean angle(tBodyAccJerkMean),gravityMean)	:-	Mean of angle(tBodyAccJerkMean),gravityMean)
+559. 	Mean angle(tBodyGyroMean,gravityMean)	:-	Mean of angle(tBodyGyroMean,gravityMean)
+560. 	Mean angle(tBodyGyroJerkMean,gravityMean)	:-	Mean of angle(tBodyGyroJerkMean,gravityMean)
+561. 	Mean angle(X,gravityMean)	:-	Mean of angle(X,gravityMean)
+562. 	Mean angle(Y,gravityMean)	:-	Mean of angle(Y,gravityMean)
+563. 	Mean angle(Z,gravityMean)	:-	Mean of angle(Z,gravityMean)
